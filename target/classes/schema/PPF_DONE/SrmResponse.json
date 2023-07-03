@@ -1,0 +1,103 @@
+        {
+            "resourceStatus": "reserved",
+            "value": "89359050000000000011",
+            "href": "https://resource-inventory-management.ppe.amdocs-dbs.cloud/resource/63bbc3b67e4dd660c4c72251",
+            "id": "63bbc3b67e4dd660c4c72251",
+            "lastModifiedStatusDate": "2023-01-11T12:59:57.303Z",
+            "resourceRelationship": [
+                {
+                    "relationshipType": "dependency",
+                    "resource": {
+                        "value": "284050000000001",
+                        "resourceStatus": "purchased",
+                        "name": "IMSI Resource",
+                        "@type": "IMSI",
+                        "id": "63bbc3b67e4dd660c4c7224d",
+                        "href": "https://resource-inventory-management.ppe.amdocs-dbs.cloud/resource/63bbc3b67e4dd660c4c7224d"
+                    }
+                }
+            ],
+            "resourceCharacteristic": [
+                {
+                    "value": "PLUG-IN",
+                    "name": "SIM Type",
+                    "id": "6794dd68-15dd-49fb-a478-e753950f0174"
+                },
+                {
+                    "value": "Physical HLR00",
+                    "name": "HLR",
+                    "id": "0ff01a61-693a-45cc-ac25-d99bf3440423"
+                },
+                {
+                    "value": "1.0",
+                    "name": "Graphical Profile",
+                    "id": "fdf2df48-a3e3-4475-8352-bd2b13138bed"
+                },
+                {
+                    "value": "7.01",
+                    "name": "Electrical Profile",
+                    "id": "e712eb2c-03fa-4e94-83a6-f8d5de0b0ccf"
+                },
+                {
+                    "value": "for Thales - 31",
+                    "name": "Transport Key",
+                    "id": "59fc684c-7fb7-4d8b-ac2b-504879b3c98a"
+                },
+                {
+                    "value": "Thales",
+                    "name": "Vendor",
+                    "id": "95742828-4b43-4501-82df-ea1f94ca352d"
+                },
+                {
+                    "value": "01363",
+                    "name": "Batch Number",
+                    "id": "f346e5a4-c771-4b16-ba98-4c2426ccdda2"
+                },
+                {
+                    "value": "586.0",
+                    "name": "PO_ref_number",
+                    "id": "042c40de-4953-4ec8-9a4e-5c3ba4705441"
+                },
+                {
+                    "value": "0000",
+                    "name": "PIN1",
+                    "id": "760b43de-c68f-4b2b-82b2-2088970a6b11"
+                },
+                {
+                    "value": "71382906",
+                    "name": "PUK1",
+                    "id": "ae5bc7de-0dc0-4965-b98f-4b1f7680d6fd"
+                },
+                {
+                    "value": "7790",
+                    "name": "PIN2",
+                    "id": "f9d48334-fb3e-44ed-938b-161460021c53"
+                },
+                {
+                    "value": "71598543",
+                    "name": "PUK2",
+                    "id": "4d605c2e-0f6e-462e-b71a-5d6e41a7f012"
+                },
+                {
+                    "value": "457D668195F7B48C57D620947929E461",
+                    "name": "KI",
+                    "id": "9bfe5a0c-9c8c-4075-8934-8008ba1a871d"
+                }
+            ],
+            "relatedParty": [],
+            "attachment": [],
+            "activationFeature": [],
+            "note": [
+                {
+                    "id": "17754d9b-26a4-4941-87ae-b6d1e90b26cf",
+                    "text": "This resource was updated from a bulk request",
+                    "date": "2023-01-11T12:26:47.411Z"
+                }
+            ],
+            "name": "ICCID Resource",
+            "batchId": [
+                "18302e73-65f9-4428-a2a5-bda1b6f4ae48",
+                "2"
+            ],
+            "@type": "ICCID"
+        }

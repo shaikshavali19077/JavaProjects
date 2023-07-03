@@ -1,0 +1,8 @@
+{
+  "msisdnReservationId": [
+    {}
+  ],
+  "reservationId": "string",
+  "transactionId": "string",
+  "remarks": "string"
+}

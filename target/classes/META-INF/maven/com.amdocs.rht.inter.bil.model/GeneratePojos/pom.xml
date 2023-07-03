@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.amdocs.rht.inter.bil.model</groupId>
+  <artifactId>GeneratePojos</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+
+  <name>GeneratePojos</name>
+  <!-- FIXME change it to the project's website -->
+  <url>http://www.example.com</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.11</version>
+      <scope>test</scope>
+    </dependency>
+       <dependency>
+            <groupId>commons-lang</groupId>
+            <artifactId>commons-lang</artifactId>
+            <version>2.4</version>
+        </dependency>
+       <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>2.13.3</version>
+        </dependency>        
+  </dependencies>
+
+  <build>
+    <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
+     </pluginManagement>
+      <plugins>
+       <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-compiler-plugin</artifactId>
+            <configuration>
+                <source>1.8</source>
+                <target>1.8</target>
+            </configuration>
+        </plugin>
+            <plugin>
+                <groupId>org.jsonschema2pojo</groupId>
+                <artifactId>jsonschema2pojo-maven-plugin</artifactId>
+                <version>1.1.2</version>                
+                <executions>
+                	<execution>
+	                    <id>1</id>
+	                    <configuration>
+		                    <sourceDirectory>${basedir}/src/main/resources/schema/Json</sourceDirectory>
+		                    <targetPackage>swagger.services.pojos.ppf</targetPackage>
+		                    <outputDirectory>src/main/java</outputDirectory>
+		                    <includeGeneratedAnnotation>false</includeGeneratedAnnotation>
+		                    <includeHashcodeAndEquals>false</includeHashcodeAndEquals>
+		                    <includeAdditionalProperties>false</includeAdditionalProperties>
+	                        <sourceType>json</sourceType>
+	               		 </configuration>
+	                     <goals>
+	                         <goal>generate</goal>
+	                     </goals>
+                    </execution> 
+                    <execution>
+	                    <id>2</id>
+	                    <configuration>
+		                    <sourceDirectory>${basedir}/src/main/resources/schema/PPF</sourceDirectory>
+		                    <targetPackage>swagger.services.pojos.ppf</targetPackage>
+		                    <outputDirectory>src/main/java</outputDirectory>
+		                    <includeGeneratedAnnotation>false</includeGeneratedAnnotation>
+		                    <includeHashcodeAndEquals>false</includeHashcodeAndEquals>
+		                    <includeAdditionalProperties>false</includeAdditionalProperties>
+		                    <includeToString>false</includeToString>
+	                        <sourceType>json</sourceType>
+	               		 </configuration>
+	                     <goals>
+	                         <goal>generate</goal>
+	                     </goals>
+                    </execution> 
+                </executions>
+            </plugin>
+      </plugins>
+   
+  </build>
+</project>

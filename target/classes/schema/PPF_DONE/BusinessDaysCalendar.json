@@ -1,0 +1,53 @@
+{
+        "type": "businessDaysCalendar",
+        "id": "businessDaysCalendar_2",
+        "isActive": "true",
+        "tenantId": "2",
+        "configBusinessDaysCalendar": {
+            "maxBusinessDays": 2,
+            "dateFormat": "dateTimeSec",
+            "firstDayOfWeek": "MON",
+            "timezone": "+10:30 - Australia/Adelaide",
+            "weekendDays": [
+                "SAT",
+                "SUN"
+            ],
+            "holidays": [
+                {
+                    "from": "2023-05-04",
+                    "to": "2023-05-05"
+                },
+                {
+                    "from": "2023-05-01",
+                    "to": "2023-05-01"
+                }
+            ],
+            "workingHours": {
+                "THU": {
+                    "startHour": "09:30",
+                    "endHour": "18:40"
+                },
+                "TUE": {
+                    "startHour": "01:30",
+                    "endHour": "18:30"
+                },
+                "SAT": {
+                    "startHour": "09:30",
+                    "endHour": "11:45"
+                },
+                "WED": {
+                    "startHour": "09:30",
+                    "endHour": "18:35"
+                },
+                "FRI": {
+                    "startHour": "09:30",
+                    "endHour": "18:45"
+                },
+                "MON": {
+                    "startHour": "13:30",
+                    "endHour": "18:25"
+                },
+                "SUN": {}
+            }
+        }
+    }

@@ -1,0 +1,110 @@
+{
+    "networkDeviceId": "Integer",
+    "accountId": "Integer",
+    "addressId": "Integer",
+    "annotation1": "string",
+    "annotation2": "string",
+    "annotation3": "string",
+    "assignmentAnnotation": "string",
+    "blacklistReasonId": {
+      "displayValue": "string",
+      "key": "string"
+    },
+    "channelMap": "string",
+    "creditLimit": "Integer",
+    "currencyCode": {
+      "displayValue": "string",
+      "key": "string"
+    },
+    "endDateTime": "2022-09-06T10:30:15.646Z",
+    "equipmentConditionId": "Integer",
+    "equipmentConditionNotes": "string",
+    "expireDt": "2022-09-06T10:30:15.646Z",
+    "externalId": "string",
+    "geographicRegionId": "Integer",
+    "inventoryBatchId": "Integer",
+    "inventoryId": "Integer",
+    "inventoryIdResets": "Integer",
+    "inventoryLineId": {
+      "displayValue": "string",
+      "key": "string"
+    },
+    "inventoryTypeId": {
+      "displayValue": "string",
+      "key": "string"
+    },
+    "isAssignable": true,
+    "isCustomerOwned": true,
+    "isDonated": true,
+    "isInitialised": true,
+    "isItem": true,
+    "languageCode": "Integer",
+    "locationDetailId": "Integer",
+    "locationId": {
+      "displayValue": "string",
+      "key": "string"
+    },
+    "rateCenterId": "Integer",
+    "msgGroup": "Integer",
+    "serviceNumberLo": "string",
+    "serviceNumberHi": "string",
+    "secondaryCode": "string",
+    "subjectMatterRating": "Integer",
+    "networkId": "string",
+    "topLevelContainerId": "Integer",
+    "tokenLimit": "Integer",
+    "warrantyExpDt": "2022-09-06T10:30:15.646Z",
+    "serialNumber": "string",
+    "state": "Integer",
+    "salesChannelId": {
+      "displayValue": "string",
+      "key": "string"
+    },
+    "topLevelContainerType": {
+      "displayValue": "string",
+      "key": "string"
+    },
+    "statusId": {
+      "displayValue": "string",
+      "key": "string"
+    },
+    "portabilityIndicator": "Integer",
+    "extendedDataList": [
+      {
+        "viewId": "Integer",
+        "paramName": "string",
+        "paramId": "Integer",
+        "paramDatatype": "Integer",
+        "paramValue": "string"
+      }
+    ],
+    "serviceNumber": "string",
+    "provisioningData1": "string",
+    "primaryCode": "string",
+    "provisioningData2": "string",
+    "provisioningData3": "string",
+    "provisioningData4": "string",
+    "provisioningData5": "string",
+    "provisioningData6": "string",
+    "serviceNumberLength": "Integer",
+    "responsiblePartyId": {
+      "displayValue": "string",
+      "key": "string"
+    },
+    "tertiaryCode": "string",
+    "stockPropertyConfigId": "Integer",
+    "vanityCode": {
+      "displayValue": "string",
+      "key": "string"
+    },
+    "maskPpvTitle": true,
+    "profileType": "Integer",
+    "operatorId": "Integer",
+    "startDateTime": "2022-09-06T10:30:15.646Z",
+    "viewId": "Integer",
+    "paramB": "Integer",
+    "paramA": "Integer",
+    "mustBeReturned": "Integer",
+    "image": "string",
+    "modelDisplayValue": "string"
+  }

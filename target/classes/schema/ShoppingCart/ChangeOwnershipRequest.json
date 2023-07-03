@@ -1,0 +1,6 @@
+{
+  "brand": "string",
+  "msisdn": "string",
+  "ottservice": "Integer",
+  "bundleId": "string"
+}

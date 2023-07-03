@@ -1,0 +1,13 @@
+{
+  "accountExternalId": "string",
+  "brand": "string",
+  "serviceExternalId": "string",
+  "packageId": "string",
+  "componentId": "string",
+  "emailId": "string",
+  "cartId": "string",
+  "offerId": "string",
+  "msisdn": "string",
+  "type": "string",
+  "OTTService": "Integer"
+}

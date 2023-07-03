@@ -1,0 +1,7 @@
+{
+  "brand": "string",
+  "msisdn": "string",
+  "OTTService": "Integer",
+  "bundleId": "string",
+  "EventType": "string"
+}

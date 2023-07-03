@@ -1,0 +1,30 @@
+{
+    "personalIds": [
+        {
+            "personalId": "8708101445",
+            "personalIdType": "EGN"
+        }
+    ],
+    "businessDocuments": [
+        {"filename": "REQ-MOB-1000000623719855-20200925181128.pdf"}
+    ],
+    "desiredPortDates": [
+        {"desiredPortDate": "2020-09-28T00:00:00Z"},
+        {"desiredPortDate": "2020-09-29T00:00:00Z"}
+    ],
+    "numbers": [
+        {"startNumber": "359887774794"}
+    ],
+    "numberType": "Mobile",
+    "noOfServices": 1,
+    "currentNetworkOperator": "MTEL",
+    "recipientNetworkOperator": "GLOB",
+    "status": "pending",
+    "transactionDate": "2020-09-25T18:12:03Z",
+    "statusUrl": "https:/v1/portorders/GLOB100000000143947",
+    "id": "GLOB100000000143947",
+    "correlationId": "GLOB1000000623719855",
+    "type": "portIn",
+    	"serviceOrderId": "87675765",
+	"portInRequestId": "76tffffhhgf"
+}

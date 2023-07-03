@@ -1,0 +1,1130 @@
+{
+    "cartActions": [
+      {
+        "actionType": 10,
+        "orderItemType": "ProductBundleAction",
+        "actionItemId": 12235751,
+        "owningCfsId": "fd75a38b-b5c1-4ea2-8471-fd0f7cd06b32",
+        "isOriginal": true,
+        "isEditable": true,
+        "objectId": "a9f9e844-9337-481e-89b1-b52054bed352",
+        "productBundleAction": {
+          "productBundle": {
+            "packageId": 1004,
+            "retailPrice": {
+              "amount": 20,
+              "currency": "BGN"
+            },
+            "offerId": 10000001
+          }
+        },
+        "serviceOrderId": 161688003
+      },
+      {
+        "actionType": 10,
+        "orderItemType": "ProductComponentAction",
+        "actionItemId": 12235757,
+        "owningCfsId": "fd75a38b-b5c1-4ea2-8471-fd0f7cd06b32",
+        "owningBundleId": "5632e6ba-6a0e-4f67-ac05-98c351877b38",
+        "isOriginal": true,
+        "isEditable": true,
+        "objectId": "2fadbbf3-102d-49f1-8a51-3e27e706cbce",
+        "productComponentAction": {
+          "productComponent": {
+            "productId": 10001,
+            "packageId": 1001,
+            "offerId": 10000007,
+            "parentOfferId": 10000004,
+            "retailPrice": {
+              "amount": 0,
+              "currency": "BGN"
+            },
+            "isAdoptive": true,
+            "isCompatible": false,
+            "isUnbundleable": true,
+            "adoptableProdCompId": "779473:3",
+            "offerName": "Sim Card",
+            "offerClass": "1"
+          }
+        },
+        "serviceOrderId": 161688003
+      },
+      {
+        "actionType": 10,
+        "orderItemType": "ProductComponentAction",
+        "actionItemId": 12235773,
+        "owningCfsId": "fd75a38b-b5c1-4ea2-8471-fd0f7cd06b32",
+        "owningBundleId": "2863e1cd-3f4a-43cb-96e4-87ff73b2fba5",
+        "isOriginal": true,
+        "isEditable": true,
+        "objectId": "650f640f-29c0-45bd-9bcb-bc67ab2f96dd",
+        "productComponentAction": {
+          "productComponent": {
+            "productId": 10009,
+            "packageId": 1007,
+            "offerId": 10000033,
+            "parentOfferId": 10000029,
+            "retailPrice": {
+              "amount": 20,
+              "currency": "BGN"
+            },
+            "isAdoptive": true,
+            "isCompatible": false,
+            "isUnbundleable": true,
+            "productOfferingCharges": [
+              {
+                "chargeId": 10000037,
+                "type": "NRC",
+                "productOfferingNRC": {
+                  "prodOfferingPrice": [
+                    {
+                      "isTaxInclusive": false,
+                      "amount": {
+                        "amount": 20,
+                        "currency": "BGN"
+                      },
+                      "quotedAmount": 20
+                    }
+                  ],
+                  "nrcTypeId": 1000005,
+                  "paymentPolicy": "Upfront"
+                }
+              }
+            ],
+            "offerName": "3GB Data shot",
+            "offerClass": "1"
+          }
+        },
+        "serviceOrderId": 161688003
+      },
+      {
+        "actionType": 10,
+        "orderItemType": "CustomerFacingServiceAction",
+        "actionItemId": 12235750,
+        "owningAccountId": "82b6680a-542e-49a0-9bcc-f2a0b51736b5",
+        "isOriginal": true,
+        "isEditable": true,
+        "objectId": "fd75a38b-b5c1-4ea2-8471-fd0f7cd06b32",
+        "customerFacingServiceAction": {
+          "service": {
+            "currencyCode": {
+              "key": "1",
+              "displayValue": "United States Dollars"
+            },
+            "emfConfigId": {
+              "key": "30005",
+              "displayValue": "Mobile"
+            }
+          }
+        },
+        "serviceOrderId": 161688003
+      },
+      {
+        "actionType": 10,
+        "orderItemType": "ProductComponentAction",
+        "actionItemId": 12235767,
+        "owningCfsId": "fd75a38b-b5c1-4ea2-8471-fd0f7cd06b32",
+        "owningBundleId": "2863e1cd-3f4a-43cb-96e4-87ff73b2fba5",
+        "isOriginal": true,
+        "isEditable": true,
+        "objectId": "d6ccbce2-fafb-409e-870c-9f9556652134",
+        "productComponentAction": {
+          "productComponent": {
+            "productId": 10009,
+            "packageId": 1007,
+            "offerId": 10000033,
+            "parentOfferId": 10000029,
+            "retailPrice": {
+              "amount": 20,
+              "currency": "BGN"
+            },
+            "isAdoptive": true,
+            "isCompatible": false,
+            "isUnbundleable": true,
+            "adoptableProdCompId": "779469:3",
+            "productOfferingCharges": [
+              {
+                "chargeId": 10000037,
+                "type": "NRC",
+                "productOfferingNRC": {
+                  "prodOfferingPrice": [
+                    {
+                      "isTaxInclusive": false,
+                      "amount": {
+                        "amount": 20,
+                        "currency": "BGN"
+                      },
+                      "quotedAmount": 20
+                    }
+                  ],
+                  "nrcTypeId": 1000005,
+                  "paymentPolicy": "Upfront"
+                }
+              }
+            ],
+            "offerName": "3GB Data shot",
+            "offerClass": "1"
+          }
+        },
+        "serviceOrderId": 161688003
+      },
+      {
+        "actionType": 10,
+        "orderItemType": "ProductBundleAction",
+        "actionItemId": 12235758,
+        "owningCfsId": "fd75a38b-b5c1-4ea2-8471-fd0f7cd06b32",
+        "owningBundleId": "a9f9e844-9337-481e-89b1-b52054bed352",
+        "isOriginal": true,
+        "isEditable": true,
+        "objectId": "dc234c94-15eb-4db2-9274-0f8f4fb1f2d0",
+        "productBundleAction": {
+          "productBundle": {
+            "parentOfferId": 10000001,
+            "packageId": 1004,
+            "retailPrice": {
+              "amount": 0,
+              "currency": "BGN"
+            },
+            "offerId": 10000028
+          }
+        },
+        "serviceOrderId": 161688003
+      },
+      {
+        "actionType": 10,
+        "orderItemType": "ProductComponentAction",
+        "actionItemId": 12235771,
+        "owningCfsId": "fd75a38b-b5c1-4ea2-8471-fd0f7cd06b32",
+        "owningBundleId": "2e45a494-ea04-49ed-b8ed-d6b894784b07",
+        "isOriginal": true,
+        "isEditable": true,
+        "objectId": "cce0f54a-f5fc-49e7-8b95-12c720dcefca",
+        "productComponentAction": {
+          "productComponent": {
+            "productId": 10042,
+            "packageId": 1009,
+            "offerId": 10000132,
+            "parentOfferId": 10000128,
+            "retailPrice": {
+              "amount": 20,
+              "currency": "BGN"
+            },
+            "isAdoptive": true,
+            "isCompatible": false,
+            "isUnbundleable": true,
+            "productOfferingCharges": [
+              {
+                "chargeId": 10000134,
+                "type": "NRC",
+                "productOfferingNRC": {
+                  "prodOfferingPrice": [
+                    {
+                      "isTaxInclusive": false,
+                      "amount": {
+                        "amount": 20,
+                        "currency": "BGN"
+                      },
+                      "quotedAmount": 20
+                    }
+                  ],
+                  "nrcTypeId": 1000051,
+                  "paymentPolicy": "Upfront"
+                }
+              }
+            ],
+            "offerName": "Group 2 International pass",
+            "offerClass": "1"
+          }
+        },
+        "serviceOrderId": 161688003
+      },
+      {
+        "actionType": 10,
+        "orderItemType": "ProductComponentAction",
+        "actionItemId": 12235768,
+        "owningCfsId": "fd75a38b-b5c1-4ea2-8471-fd0f7cd06b32",
+        "owningBundleId": "a26f4f9e-59db-40e7-9f05-b258d93f643f",
+        "isOriginal": true,
+        "isEditable": true,
+        "objectId": "2af9ad62-33ce-4a21-9762-33d145194408",
+        "productComponentAction": {
+          "productComponent": {
+            "productId": 10000,
+            "packageId": 1000,
+            "offerId": 10000006,
+            "parentOfferId": 10000003,
+            "retailPrice": {
+              "amount": 0,
+              "currency": "BGN"
+            },
+            "isAdoptive": true,
+            "isCompatible": false,
+            "isUnbundleable": true,
+            "offerName": "MSISDN",
+            "offerClass": "1"
+          }
+        },
+        "serviceOrderId": 161688003
+      },
+      {
+        "actionType": 10,
+        "orderItemType": "ProductBundleAction",
+        "actionItemId": 12235754,
+        "owningCfsId": "fd75a38b-b5c1-4ea2-8471-fd0f7cd06b32",
+        "owningBundleId": "a9f9e844-9337-481e-89b1-b52054bed352",
+        "isOriginal": true,
+        "isEditable": true,
+        "objectId": "a26f4f9e-59db-40e7-9f05-b258d93f643f",
+        "productBundleAction": {
+          "productBundle": {
+            "parentOfferId": 10000001,
+            "packageId": 1004,
+            "retailPrice": {
+              "amount": 0,
+              "currency": "BGN"
+            },
+            "offerId": 10000003
+          }
+        },
+        "serviceOrderId": 161688003
+      },
+      {
+        "actionType": 10,
+        "orderItemType": "ProductComponentAction",
+        "actionItemId": 12235763,
+        "owningCfsId": "fd75a38b-b5c1-4ea2-8471-fd0f7cd06b32",
+        "owningBundleId": "2e45a494-ea04-49ed-b8ed-d6b894784b07",
+        "isOriginal": true,
+        "isEditable": true,
+        "objectId": "3fe3fd3f-709d-4715-bbe1-ef96868d02cb",
+        "productComponentAction": {
+          "productComponent": {
+            "productId": 10041,
+            "packageId": 1009,
+            "offerId": 10000131,
+            "parentOfferId": 10000128,
+            "retailPrice": {
+              "amount": 15,
+              "currency": "BGN"
+            },
+            "isAdoptive": true,
+            "isCompatible": false,
+            "isUnbundleable": true,
+            "adoptableProdCompId": "779472:3",
+            "productOfferingCharges": [
+              {
+                "chargeId": 10000133,
+                "type": "PRODUCT ELEMENT",
+                "productOfferingRC": {
+                  "prodOfferingPrice": [
+                    {
+                      "isTaxInclusive": false,
+                      "amount": {
+                        "amount": 15,
+                        "currency": "BGN"
+                      },
+                      "quotedAmount": 15
+                    }
+                  ],
+                  "billingFrequency": {
+                    "key": "3",
+                    "displayValue": "Monthly"
+                  },
+                  "elementId": 1000028
+               }
+              }
+            ],
+            "offerName": "Group 1 Recurrent International pass",
+            "offerClass": "1"
+          }
+        },
+        "serviceOrderId": 161688003
+      },
+      {
+        "actionType": 10,
+        "orderItemType": "PaymentMethodAction",
+        "actionItemId": 12235929,
+        "owningAccountId": "82b6680a-542e-49a0-9bcc-f2a0b51736b5",
+        "isOriginal": true,
+        "isEditable": true,
+        "objectId": "cd352af8-72cb-4ab9-8d19-87f0a55d17b5",
+        "paymentMethodAction": {
+          "paymentMethod": {
+            "payMethod": {
+              "key": "1",
+              "displayValue": "Check"
+            },
+            "clearingHouseId": {
+              "key": "DCH",
+              "displayValue": "Default Clearing House"
+            },
+            "isTemporary": true
+          }
+        },
+        "serviceOrderId": 161687003
+      },
+      {
+        "actionType": 10,
+        "orderItemType": "ProductComponentAction",
+        "actionItemId": 12235770,
+        "owningCfsId": "fd75a38b-b5c1-4ea2-8471-fd0f7cd06b32",
+        "owningBundleId": "2e45a494-ea04-49ed-b8ed-d6b894784b07",
+        "isOriginal": true,
+        "isEditable": true,
+        "objectId": "7df6b972-0689-4cc8-b6d1-35acedce007e",
+        "productComponentAction": {
+          "productComponent": {
+            "productId": 10041,
+            "packageId": 1009,
+            "offerId": 10000131,
+            "parentOfferId": 10000128,
+            "retailPrice": {
+              "amount": 15,
+              "currency": "BGN"
+            },
+            "isAdoptive": true,
+            "isCompatible": false,
+            "isUnbundleable": true,
+            "productOfferingCharges": [
+              {
+                "chargeId": 10000133,
+                "type": "PRODUCT ELEMENT",
+                "productOfferingRC": {
+                  "prodOfferingPrice": [
+                    {
+                      "isTaxInclusive": false,
+                      "amount": {
+                        "amount": 15,
+                        "currency": "BGN"
+                      },
+                      "quotedAmount": 15
+                    }
+                  ],
+                  "billingFrequency": {
+                    "key": "3",
+                    "displayValue": "Monthly"
+                  },
+                  "elementId": 1000028
+                }
+              }
+            ],
+            "offerName": "Group 1 Recurrent International pass",
+            "offerClass": "1"
+          }
+        },
+        "serviceOrderId": 161688003
+      },
+      {
+        "actionType": 10,
+        "orderItemType": "PaymentMethodAction",
+        "actionItemId": 12235839,
+        "owningAccountId": "82b6680a-542e-49a0-9bcc-f2a0b51736b5",
+        "isOriginal": true,
+        "isEditable": true,
+        "objectId": "d587ed1b-bf83-4432-a139-52b39a7e83ed",
+        "paymentMethodAction": {
+          "paymentMethod": {
+            "payMethod": {
+              "key": "1",
+              "displayValue": "Check"
+            },
+            "isTemporary": false
+          }
+        },
+        "serviceOrderId": 161687003
+      },
+      {
+        "actionType": 10,
+        "orderItemType": "ProductComponentAction",
+        "actionItemId": 12235764,
+        "owningCfsId": "fd75a38b-b5c1-4ea2-8471-fd0f7cd06b32",
+        "owningBundleId": "2e45a494-ea04-49ed-b8ed-d6b894784b07",
+        "isOriginal": true,
+        "isEditable": true,
+        "objectId": "48019d79-2246-479b-8cb8-fde4391cad8b",
+        "productComponentAction": {
+          "productComponent": {
+            "productId": 10042,
+            "packageId": 1009,
+            "offerId": 10000132,
+            "parentOfferId": 10000128,
+            "retailPrice": {
+              "amount": 20,
+              "currency": "BGN"
+            },
+            "isAdoptive": true,
+            "isCompatible": false,
+            "isUnbundleable": true,
+            "adoptableProdCompId": "779470:3",
+            "productOfferingCharges": [
+              {
+                "chargeId": 10000134,
+                "type": "NRC",
+                "productOfferingNRC": {
+                  "prodOfferingPrice": [
+                    {
+                      "isTaxInclusive": false,
+                      "amount": {
+                        "amount": 20,
+                        "currency": "BGN"
+                      },
+                      "quotedAmount": 20
+                    }
+                  ],
+                  "nrcTypeId": 1000051,
+                  "paymentPolicy": "Upfront"
+                }
+              }
+            ],
+            "offerName": "Group 2 International pass",
+            "offerClass": "1"
+          }
+        },
+        "serviceOrderId": 161688003
+      },
+      {
+        "actionType": 10,
+        "orderItemType": "ProductComponentAction",
+        "actionItemId": 12235769,
+        "owningCfsId": "fd75a38b-b5c1-4ea2-8471-fd0f7cd06b32",
+        "owningBundleId": "5632e6ba-6a0e-4f67-ac05-98c351877b38",
+        "isOriginal": true,
+        "isEditable": true,
+        "objectId": "560657f1-ec04-44c5-8104-6a943482514f",
+        "productComponentAction": {
+          "productComponent": {
+            "productId": 10001,
+            "packageId": 1001,
+            "offerId": 10000007,
+            "parentOfferId": 10000004,
+            "retailPrice": {
+              "amount": 0,
+              "currency": "BGN"
+            },
+            "isAdoptive": true,
+            "isCompatible": false,
+            "isUnbundleable": true,
+            "offerName": "Sim Card",
+            "offerClass": "1"
+          }
+        },
+        "serviceOrderId": 161688003
+      },
+      {
+        "actionType": 10,
+        "orderItemType": "ProductBundleAction",
+        "actionItemId": 12235759,
+        "owningCfsId": "fd75a38b-b5c1-4ea2-8471-fd0f7cd06b32",
+        "owningBundleId": "a9f9e844-9337-481e-89b1-b52054bed352",
+        "isOriginal": true,
+        "isEditable": true,
+        "objectId": "2863e1cd-3f4a-43cb-96e4-87ff73b2fba5",
+        "productBundleAction": {
+          "productBundle": {
+            "parentOfferId": 10000001,
+            "packageId": 1004,
+            "retailPrice": {
+              "amount": 0,
+              "currency": "BGN"
+            },
+            "offerId": 10000029
+          }
+        },
+        "serviceOrderId": 161688003
+      },
+      {
+        "actionType": 10,
+        "orderItemType": "ProductBundleAction",
+        "actionItemId": 12235761,
+        "owningCfsId": "fd75a38b-b5c1-4ea2-8471-fd0f7cd06b32",
+        "owningBundleId": "a9f9e844-9337-481e-89b1-b52054bed352",
+        "isOriginal": true,
+        "isEditable": true,
+        "objectId": "df7c731e-8aeb-496a-bfe3-f85343b43949",
+        "productBundleAction": {
+          "productBundle": {
+            "parentOfferId": 10000001,
+            "packageId": 1004,
+            "retailPrice": {
+              "amount": 0,
+              "currency": "BGN"
+            },
+            "offerId": 10000840
+          }
+        },
+        "serviceOrderId": 161688003
+      },
+      {
+        "actionType": 10,
+        "orderItemType": "ProductBundleAction",
+        "actionItemId": 12235756,
+        "owningCfsId": "fd75a38b-b5c1-4ea2-8471-fd0f7cd06b32",
+        "owningBundleId": "a9f9e844-9337-481e-89b1-b52054bed352",
+        "isOriginal": true,
+        "isEditable": true,
+        "objectId": "5632e6ba-6a0e-4f67-ac05-98c351877b38",
+        "productBundleAction": {
+          "productBundle": {
+            "parentOfferId": 10000001,
+            "packageId": 1004,
+            "retailPrice": {
+              "amount": 0,
+              "currency": "BGN"
+            },
+            "offerId": 10000004
+          }
+        },
+        "serviceOrderId": 161688003
+      },
+      {
+        "actionType": 10,
+        "orderItemType": "AddressAction",
+        "actionItemId": 12235842,
+        "isOriginal": true,
+        "isEditable": true,
+        "objectId": "3a7beb8b-fd5a-412b-b51a-e2b956bacd00",
+        "addressAction": {
+          "address": {
+            "addressType": {
+              "key": "4",
+              "displayValue": "Work Order Item"
+            },
+            "status": "Not Validated / Not Required",
+            "address1": "sss ddd",
+            "address2": "3343",
+            "city": "Eklunta",
+            "county": "Anchorage",
+            "state": "Alaska",
+            "postalCode": "99567",
+            "rfsSpecIds": ""
+          }
+        }
+      },
+      {
+        "actionType": 10,
+        "orderItemType": "ProductComponentAction",
+        "actionItemId": 12235753,
+        "owningCfsId": "fd75a38b-b5c1-4ea2-8471-fd0f7cd06b32",
+        "owningBundleId": "8dc4d45b-73a7-4a1b-af87-8cb8d89e5d38",
+        "isOriginal": true,
+        "isEditable": true,
+        "objectId": "53d6e674-0a11-43b9-b332-f7718cad60a9",
+        "productComponentAction": {
+          "productComponent": {
+            "productId": 10004,
+            "packageId": 1004,
+            "offerId": 10000005,
+            "parentOfferId": 10000002,
+            "retailPrice": {
+              "amount": 10,
+              "currency": "BGN"
+            },
+            "isAdoptive": false,
+            "isCompatible": false,
+            "isUnbundleable": false,
+            "productOfferingCharges": [
+              {
+                "chargeId": 10000009,
+                "displayRank": 4,
+                "type": "PRODUCT ELEMENT",
+                "productOfferingRC": {
+                  "prodOfferingPrice": [
+                    {
+                      "isTaxInclusive": false,
+                      "amount": {
+                        "amount": 10,
+                        "currency": "BGN"
+                      },
+                      "quotedAmount": 10
+                    }
+                  ],
+                  "billingFrequency": {
+                    "key": "3",
+                    "displayValue": "Monthly"
+                  },
+                  "elementId": 1000001
+                }
+              },
+              {
+                "chargeId": 10000008,
+                "displayRank": 1,
+                "type": "NRC",
+                "productOfferingNRC": {
+                  "prodOfferingPrice": [
+                    {
+                      "isTaxInclusive": false,
+                      "amount": {
+                        "amount": 10,
+                        "currency": "BGN"
+                      },
+                      "quotedAmount": 10
+                    }
+                  ],
+                  "nrcTypeId": 1000001,
+                  "paymentPolicy": "Upfront"
+                }
+              }
+            ],
+            "offerName": "Basic Plan Primary offer",
+            "offerClass": "2"
+          }
+        },
+        "serviceOrderId": 161688003
+      },
+      {
+        "actionType": 10,
+        "orderItemType": "IndividualRoleAction",
+        "actionItemId": 12235833,
+        "owningAccountId": "82b6680a-542e-49a0-9bcc-f2a0b51736b5",
+        "isOriginal": true,
+        "isEditable": true,
+        "objectId": "2edb180d-b87c-4cf5-9bd7-88a2b85c8602",
+        "contactRoleAction": {
+          "contactRole": {
+            "roleSpecId": -1,
+            "contactId": 48884,
+            "userId": "4686ef70-1b83-4afc-8610-2fe600c1c4c8",
+            "characteristics": []
+          }
+        },
+        "serviceOrderId": 161687003
+      },
+      {
+        "actionType": 10,
+        "orderItemType": "ProductComponentAction",
+        "actionItemId": 12235765,
+        "owningCfsId": "fd75a38b-b5c1-4ea2-8471-fd0f7cd06b32",
+        "owningBundleId": "dc234c94-15eb-4db2-9274-0f8f4fb1f2d0",
+        "isOriginal": true,
+        "isEditable": true,
+        "objectId": "e744ea02-8506-4a3d-a21e-97a8e7232fc0",
+        "productComponentAction": {
+          "productComponent": {
+            "productId": 10007,
+            "packageId": 1006,
+            "offerId": 10000030,
+            "parentOfferId": 10000028,
+            "retailPrice": {
+              "amount": 25,
+              "currency": "BGN"
+            },
+            "isAdoptive": true,
+            "isCompatible": false,
+            "isUnbundleable": true,
+            "adoptableProdCompId": "779476:3",
+            "productOfferingCharges": [
+              {
+                "chargeId": 10000034,
+                "type": "PRODUCT ELEMENT",
+                "productOfferingRC": {
+                  "prodOfferingPrice": [
+                    {
+                      "isTaxInclusive": false,
+                      "amount": {
+                        "amount": 25,
+                        "currency": "BGN"
+                      },
+                      "quotedAmount": 25
+                    }
+                  ],
+                  "billingFrequency": {
+                    "key": "3",
+                    "displayValue": "Monthly"
+                  },
+                  "elementId": 1000003
+                }
+              }
+            ],
+            "offerName": "Group 1 International Roaming Monthly pass",
+            "offerClass": "1"
+          }
+        },
+        "serviceOrderId": 161688003
+      },
+      {
+        "actionType": 10,
+        "orderItemType": "ProductComponentAction",
+        "actionItemId": 12235766,
+        "owningCfsId": "fd75a38b-b5c1-4ea2-8471-fd0f7cd06b32",
+        "owningBundleId": "df7c731e-8aeb-496a-bfe3-f85343b43949",
+        "isOriginal": true,
+        "isEditable": true,
+        "objectId": "3bf8ac5d-b8d4-41db-a59c-a36cc94d7469",
+        "productComponentAction": {
+          "productComponent": {
+            "productId": 40200314,
+            "packageId": 1004,
+            "offerId": 2000017373,
+            "parentOfferId": 10000840,
+            "retailPrice": {
+              "amount": 110,
+              "currency": "BGN"
+            },
+            "isAdoptive": false,
+            "isCompatible": false,
+            "isUnbundleable": false,
+            "productOfferingCharges": [
+              {
+                "chargeId": 2000017375,
+                "type": "NRC",
+                "productOfferingNRC": {
+                  "prodOfferingPrice": [
+                    {
+                      "isTaxInclusive": false,
+                      "amount": {
+                        "amount": 110,
+                        "currency": "BGN"
+                      },
+                     "quotedAmount": 110
+                    }
+                  ],
+                  "nrcTypeId": 20890023,
+                  "paymentPolicy": "Upfront",
+                  "priceEvent": "None"
+                }
+              }
+            ],
+            "offerName": "Apple MagSafe Battery Pack",
+            "offerClass": "141",
+            "displayStyle": {
+              "id": -2,
+              "name": "DeviceAddons",
+              "description": "DeviceAddons"
+           }
+          }
+        },
+        "serviceOrderId": 161688003
+      },
+      {
+        "actionType": 10,
+        "orderItemType": "CustomerAccountAction",
+        "actionItemId": 12235682,
+        "isOriginal": true,
+        "isEditable": true,
+       "objectId": "82b6680a-542e-49a0-9bcc-f2a0b51736b5",
+        "customerAccountAction": {
+          "account": {
+            "contact1Name": "Aaaa Krikkos",
+            "accountCategory": {
+              "key": "2",
+              "displayValue": "Residential"
+            },
+            "currencyCode": {
+              "key": "1",
+              "displayValue": "United States Dollars"
+            },
+            "billFmtOpt": {
+              "key": "3",
+              "displayValue": "HTML"
+            },
+            "custState": "Alaska",
+            "billDispMeth": {
+              "key": "2",
+              "displayValue": "By Email"
+            },
+            "custCounty": "Anchorage",
+            "vipCode": {
+              "key": "0",
+              "displayValue": "Standard"
+            },
+            "billTitle": "mr",
+            "statementToEmail": "rrddaaaa2daas@dfsfs.com",
+            "custAddress1": "sss ddd",
+            "custAddress2": "3343",
+            "billFname": "Aaaa",
+            "languageCode": {
+              "key": "1",
+              "displayValue": "English"
+            },
+            "custCity": "Eklunta",
+            "billState": "Alaska",
+            "billPeriod": {
+              "key": "M01",
+              "displayValue": "Monthly - begin on 1st"
+            },
+            "billAddress3": "",
+            "billAddress1": "sss ddd",
+            "billAddress2": "3343",
+            "custPhone1": "12345678999",
+            "extendedDataList": [
+              {
+                "paramId": 33375,
+                "paramDatatype": 2,
+                "paramValue": "Aaaa Krikkos",
+                "paramName": "BILL_NAME"
+              },
+              {
+                "paramId": 33376,
+                "paramDatatype": 2,
+                "paramValue": "1",
+                "paramName": "billingDepartmentName"
+              }
+            ],
+            "rateClassDefault": {
+              "key": "1",
+              "displayValue": "Standard Rate Class"
+            },
+            "billZip": "",
+            "custEmail": "rrddaaaa2daas@dfsfs.com",
+            "accountExternalId": "1000926651",
+            "billCountryCode": {
+              "key": "840",
+              "displayValue": "United States"
+            },
+            "custZip": "99567",
+            "billLname": "Krikkos",
+            "billCity": "Eklunta",
+            "acctSegId": {
+              "key": "0",
+              "displayValue": "All Segments"
+            },
+            "invoiceTemplate": "detailed",
+            "invoiceFileFmt": "pdf",
+            "customerAccountModeId": "1"
+          }
+        },
+        "serviceOrderId": 161687003
+      },
+      {
+        "actionType": 10,
+        "orderItemType": "InventoryAction",
+        "actionItemId": 12235762,
+        "owningCfsId": "fd75a38b-b5c1-4ea2-8471-fd0f7cd06b32",
+        "isOriginal": true,
+        "isEditable": true,
+        "objectId": "6a26f190-5714-49f1-bb15-8ff801409507-3",
+        "inventoryAction": {
+          "inventory": {
+            "invTypeId": 2,
+            "invLineId": 20,
+            "offerId": 10000007,
+            "sourceSystem": -2,
+            "sourceSystemInvCode": "312456",
+            "assignmentStrategy": -504,
+            "isItem": true,
+            "storeId": "S101",
+            "containerTypeId": 8
+          }
+        },
+        "serviceOrderId": 161688003,
+        "linkedId": "2fadbbf3-102d-49f1-8a51-3e27e706cbce"
+      },
+      {
+        "actionType": 10,
+        "orderItemType": "ProductBundleAction",
+        "actionItemId": 12235760,
+        "owningCfsId": "fd75a38b-b5c1-4ea2-8471-fd0f7cd06b32",
+        "owningBundleId": "a9f9e844-9337-481e-89b1-b52054bed352",
+        "isOriginal": true,
+        "isEditable": true,
+        "objectId": "2e45a494-ea04-49ed-b8ed-d6b894784b07",
+        "productBundleAction": {
+          "productBundle": {
+            "parentOfferId": 10000001,
+           "packageId": 1004,
+            "retailPrice": {
+              "amount": 0,
+              "currency": "BGN"
+            },
+            "offerId": 10000128
+          }
+        },
+        "serviceOrderId": 161688003
+      },
+      {
+        "actionType": 10,
+        "orderItemType": "ProductComponentAction",
+        "actionItemId": 12235772,
+        "owningCfsId": "fd75a38b-b5c1-4ea2-8471-fd0f7cd06b32",
+        "owningBundleId": "dc234c94-15eb-4db2-9274-0f8f4fb1f2d0",
+        "isOriginal": true,
+        "isEditable": true,
+        "objectId": "5b92ce21-53f7-4e21-8645-51f417f79202",
+        "productComponentAction": {
+          "productComponent": {
+            "productId": 10007,
+            "packageId": 1006,
+            "offerId": 10000030,
+            "parentOfferId": 10000028,
+            "retailPrice": {
+              "amount": 25,
+              "currency": "BGN"
+            },
+            "isAdoptive": true,
+            "isCompatible": false,
+            "isUnbundleable": true,
+            "productOfferingCharges": [
+              {
+                "chargeId": 10000034,
+                "type": "PRODUCT ELEMENT",
+                "productOfferingRC": {
+                  "prodOfferingPrice": [
+                    {
+                      "isTaxInclusive": false,
+                      "amount": {
+                        "amount": 25,
+                        "currency": "BGN"
+                      },
+                      "quotedAmount": 25
+                    }
+                  ],
+                  "billingFrequency": {
+                    "key": "3",
+                    "displayValue": "Monthly"
+                  },
+                 "elementId": 1000003
+                }
+              }
+            ],
+            "offerName": "Group 1 International Roaming Monthly pass",
+            "offerClass": "1"
+          }
+        },
+        "serviceOrderId": 161688003
+      },
+      {
+        "actionType": 10,
+        "orderItemType": "ProductBundleAction",
+        "actionItemId": 12235752,
+        "owningCfsId": "fd75a38b-b5c1-4ea2-8471-fd0f7cd06b32",
+        "owningBundleId": "a9f9e844-9337-481e-89b1-b52054bed352",
+        "isOriginal": true,
+        "isEditable": true,
+        "objectId": "8dc4d45b-73a7-4a1b-af87-8cb8d89e5d38",
+        "productBundleAction": {
+          "productBundle": {
+            "parentOfferId": 10000001,
+            "packageId": 1004,
+            "retailPrice": {
+              "amount": 20,
+              "currency": "BGN"
+            },
+            "offerId": 10000002
+          }
+        },
+        "serviceOrderId": 161688003
+      },
+      {
+        "actionType": 10,
+        "orderItemType": "ProductComponentAction",
+        "actionItemId": 12235755,
+        "owningCfsId": "fd75a38b-b5c1-4ea2-8471-fd0f7cd06b32",
+        "owningBundleId": "a26f4f9e-59db-40e7-9f05-b258d93f643f",
+        "isOriginal": true,
+        "isEditable": true,
+        "objectId": "b747a7a6-a7c6-40f3-9250-d23fe56d34b5",
+        "productComponentAction": {
+          "productComponent": {
+            "productId": 10000,
+            "packageId": 1000,
+            "offerId": 10000006,
+            "parentOfferId": 10000003,
+            "retailPrice": {
+              "amount": 0,
+              "currency": "BGN"
+            },
+            "isAdoptive": true,
+            "isCompatible": false,
+            "isUnbundleable": true,
+            "adoptableProdCompId": "779471:3",
+            "offerName": "MSISDN",
+            "offerClass": "1"
+          }
+        },
+        "serviceOrderId": 161688003
+      }
+    ],
+    "cartId": 10394953,
+    "customerId": 10586313,
+    "applicationSession": {
+      "primaryIntent": {
+        "key": "10",
+        "displayValue": "NCA"
+      },
+      "userId": "ef1979eb-2eec-4049-a263-45cf335751c2"
+    },
+    "firstName": "Aaaa",
+    "lastName": "Krikkos",
+    "accountInternalId": 55677,
+    "kenanOrderId": 86931003,
+    "orderType": {
+      "key": "10",
+      "displayValue": "NCA"
+    },
+    "desiredDate": "2023-04-28T10:51:27Z",
+    "status": "COMMITTED",
+    "quoteSummary": {
+      "totalAmount": 210,
+      "totalDiscount": 0,
+      "totalTax": 25.2,
+      "totalUnitCredit": 0,
+      "currencyCode": {
+        "key": "1",
+        "displayValue": "United States Dollars"
+      },
+      "upfrontOneTimeCharges": 179.2,
+      "upfrontShippingCharges": 0,
+      "upfrontInstallCharges": 0
+    },
+    "applicationDate": "2023-04-28T10:42:56Z",
+    "processInstId": 165638,
+    "workOrderItemId": [
+      92683
+    ],
+    "cartAttributes": [
+      {
+        "id": 1334314,
+        "name": "SapReservationStatus",
+        "value": "1|Technical Error,No consumers available on endpoint: direct-vm://v1-reservesaporder-reserveSAPOrder. Exchange[ID-esb-shoppingcart-57bcc8d8d6-qb5rz-1682670707076-64-120889]|null|3"
+      },
+      {
+        "id": 1334255,
+        "name": "CreatorCITChannel",
+        "value": "5"
+      },
+      {
+        "id": 1334276,
+        "name": "customerApplicationType",
+        "value": "customerApplicationType:REGULAR|subType:MONTHLY INCOME|subTypeValue:undefined|MAPscore:0|MAPscore2:|MAPscore3:"
+      },
+      {
+        "id": 1334317,
+        "name": "userName",
+        "value": "csr-agent"
+      },
+      {
+        "id": 1334315,
+        "name": "paymentChannel",
+        "value": "2"
+      },
+      {
+        "id": 6,
+        "name": "CollectionStoreName",
+        "value": ""
+      },
+      {
+        "id": 1334248,
+        "name": "portReqInternalId",
+        "value": "1032"
+      },
+      {
+        "id": 1334254,
+        "name": "CreatorStoreId",
+        "value": "S101"
+      },
+      {
+        "id": 1334213,
+        "name": "CITChannel",
+        "value": "5"
+      },
+      {
+        "id": 1334316,
+        "name": "payMethod",
+        "value": "2"
+      }
+    ],
+    "bulkIndicator": false,
+    "agreementIds": [
+      25508
+    ]
+  }

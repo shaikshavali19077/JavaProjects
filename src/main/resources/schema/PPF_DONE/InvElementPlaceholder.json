@@ -1,0 +1,13 @@
+{
+  "accountNo": 0,
+  "inventoryNumber": 0,
+  "invSerialNumber": "string",
+  "invPlaceholderId": 0,
+  "viewId": 0,
+  "orderId": 0,
+  "serviceOrderId": 0,
+  "effectiveDate": "2023-05-03T14:38:00.097Z",
+  "externalIdType": 0,
+  "manageVanityCharges": true,
+  "assignmentAnnotation": "string"
+}

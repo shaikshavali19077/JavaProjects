@@ -1,0 +1,9 @@
+{
+  "msisdn": "string",
+  "OTTService": "Integer",
+  "reasonCode": "string",
+  "accountExternalId": "string",
+  "componentId": "string",
+  "orderType": "string",
+  "brand": "string"
+}

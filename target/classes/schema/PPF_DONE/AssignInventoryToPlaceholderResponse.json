@@ -1,0 +1,106 @@
+{
+  "topLevelContainerId": 0,
+  "isInitialised": true,
+  "serviceNumber": "string",
+  "isAssignable": true,
+  "subjectMatterRating": 0,
+  "tertiaryCode": "string",
+  "vanityCode": {
+    "displayValue": "string",
+    "key": "string"
+  },
+  "addressId": 0,
+  "profileType": 0,
+  "serviceNumberHi": "string",
+  "modelDisplayValue": "string",
+  "image": "string",
+  "creditLimit": 0,
+  "networkId": "string",
+  "state": 0,
+  "assignmentAnnotation": "string",
+  "operatorId": 0,
+  "serialNumber": "string",
+  "maskPpvTitle": true,
+  "secondaryCode": "string",
+  "equipmentConditionNotes": "string",
+  "endDateTime": "2023-05-03T14:38:00.112Z",
+  "inventoryIdResets": 0,
+  "languageCode": 0,
+  "invsResponsiblePartyId": {
+    "displayValue": "string",
+    "key": "string"
+  },
+  "locationDetailId": 0,
+  "channelMap": "string",
+  "accountId": 0,
+  "equipmentConditionId": 0,
+  "statusId": {
+    "displayValue": "string",
+    "key": "string"
+  },
+  "warrantyExpDt": "2023-05-03T14:38:00.112Z",
+  "serviceNumberLength": 0,
+  "tokenLimit": 0,
+  "inventoryTypeId": {
+    "displayValue": "string",
+    "key": "string"
+  },
+  "blacklistReasonId": {
+    "displayValue": "string",
+    "key": "string"
+  },
+  "rateCenterId": 0,
+  "isCustomerOwned": true,
+  "annotation3": "string",
+  "inventoryBatchId": 0,
+  "primaryCode": "string",
+  "isDonated": true,
+  "annotation2": "string",
+  "annotation1": "string",
+  "expireDt": "2023-05-03T14:38:00.112Z",
+  "salesChannelId": {
+    "displayValue": "string",
+    "key": "string"
+  },
+  "msgGroup": 0,
+  "portabilityIndicator": 0,
+  "geographicRegionId": 0,
+  "locationId": {
+    "displayValue": "string",
+    "key": "string"
+  },
+  "stockPropertyConfigId": 0,
+  "serviceNumberLo": "string",
+  "provisioningData3": "string",
+  "provisioningData4": "string",
+  "inventoryLineId": {
+    "displayValue": "string",
+    "key": "string"
+  },
+  "externalId": "string",
+  "provisioningData5": "string",
+  "provisioningData6": "string",
+  "provisioningData1": "string",
+  "provisioningData2": "string",
+  "startDateTime": "2023-05-03T14:38:00.112Z",
+  "viewId": 0,
+  "networkDeviceId": 0,
+  "inventoryId": 0,
+  "topLevelContainerType": {
+    "displayValue": "string",
+    "key": "string"
+  },
+  "isItem": true,
+  "currencyCode": {
+    "displayValue": "string",
+    "key": "string"
+  },
+  "paramA": 0,
+  "paramB": 0,
+  "mustBeReturned": 0,
+  "extendedData": {
+    "additionalProp1": {},
+    "additionalProp2": {},
+    "additionalProp3": {}
+  }
+}

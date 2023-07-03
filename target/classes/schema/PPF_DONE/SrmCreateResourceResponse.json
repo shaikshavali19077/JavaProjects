@@ -1,0 +1,10 @@
+{
+        "@type": "MSISDN",
+        "name": "MSISDN Resource",
+        "value": "359890001501",
+        "resourceStatus": "available",
+        "resourceCharacteristic": [],
+        "id": "646f17fdf662ad1dedf4059b",
+        "href": "https://srm-rim:8041/resource/646f17fdf662ad1dedf4059b",
+        "lastModifiedStatusDate": "2023-05-25T08:10:38.343Z"
+    }

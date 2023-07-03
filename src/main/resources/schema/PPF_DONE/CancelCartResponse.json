@@ -1,0 +1,796 @@
+{
+        "cartActions": [
+            {
+                "actionType": 10,
+                "orderItemType": "ProductBundleAction",
+                "actionItemId": 11120000,
+                "owningCfsId": "c3e7f2a9-5d61-46ec-rgfngbklcba-b559-5681255269e8",
+                "owningBundleId": "bedb570f-a7c7-471f-xbh66s5zw5-9364-18715fa4f7a8",
+                "isOriginal": true,
+                "isEditable": true,
+                "objectId": "362dbc2f-7ef5--4f1b-hmzgfxa4hne-aae8-456b86626d5d",
+                "productBundleAction": {
+                    "productBundle": {
+                        "parentOfferId": 2000017591,
+                        "packageId": 88894812,
+                        "retailPrice": {
+                            "amount": 0,
+                            "currency": "BGN"
+                        },
+                        "offerId": 2000017539,
+                        "externalId": "88894440"
+                    }
+                },
+                "serviceOrderId": 90865003
+            },
+            {
+                "actionType": 10,
+                "orderItemType": "ProductComponentAction",
+                "actionItemId": 11120004,
+                "owningCfsId": "c3e7f2a9-5d61-46ec-rgfngbklcba-b559-5681255269e8",
+                "owningBundleId": "bedb570f-a7c7-471f-xbh66s5zw5-9364-18715fa4f7a8",
+                "isOriginal": true,
+                "isEditable": true,
+                "objectId": "180ebaae-343a-41cb-5mvzlkj8tnt-8465-48b8859ec6de",
+                "productComponentAction": {
+                    "productComponent": {
+                        "productId": 88894256,
+                        "packageId": 88894812,
+                        "offerId": 2000017517,
+                        "externalId": "88894256",
+                        "parentOfferId": 2000017542,
+                        "retailPrice": {
+                            "amount": 0,
+                            "currency": "BGN"
+                        },
+                        "isAdoptive": false,
+                        "isCompatible": false,
+                        "isUnbundleable": false,
+                        "offerName": "3 IN 1",
+                        "offerClass": "1"
+                    }
+                },
+                "serviceOrderId": 90865003
+            },
+            {
+                "actionType": 10,
+                "orderItemType": "CustomerFacingServiceAction",
+                "actionItemId": 11119996,
+                "owningAccountId": "d9d0e0a4-97dd-qrbvc9skovg-98aeca85-9ffc40bd820d",
+                "isOriginal": true,
+                "isEditable": true,
+                "objectId": "c3e7f2a9-5d61-46ec-rgfngbklcba-b559-5681255269e8",
+                "customerFacingServiceAction": {
+                    "service": {
+                        "emfConfigId": {
+                            "key": "31210",
+                            "displayValue": "The broadband product specification represents the required service configuration to provision voice, messaging, and data services on the subscriber's mobile number"
+                        }
+                    }
+                },
+                "serviceOrderId": 90865003
+            },
+            {
+                "actionType": 10,
+                "orderItemType": "ProductBundleAction",
+                "actionItemId": 11120003,
+                "owningCfsId": "c3e7f2a9-5d61-46ec-rgfngbklcba-b559-5681255269e8",
+                "owningBundleId": "bedb570f-a7c7-471f-xbh66s5zw5-9364-18715fa4f7a8",
+                "isOriginal": true,
+                "isEditable": true,
+                "objectId": "aa5d282f-9c9e-439d-g8zdvbyrtj-97bd-1e7802426bcf",
+                "productBundleAction": {
+                    "productBundle": {
+                        "parentOfferId": 2000017591,
+                        "packageId": 88894812,
+                        "retailPrice": {
+                            "amount": 0,
+                            "currency": "BGN"
+                        },
+                        "offerId": 2000017542,
+                        "externalId": "88894282"
+                    }
+                },
+                "serviceOrderId": 90865003
+            },
+            {
+                "actionType": 10,
+                "orderItemType": "AttachmentAction",
+                "actionItemId": 11120019,
+                "isOriginal": true,
+                "isEditable": true,
+                "objectId": "76f08eeb-f71c-4ce2-a37a-f7f9daba565a",
+                "attachmentAction": {
+                    "attachment": {
+                        "documentId": 1946,
+                        "objectId": "11119995",
+                        "objectType": "account",
+                        "status": "Uploaded",
+                        "statusWho": "2f432c91-1374-422e-9371-3a3d77dab3f8",
+                        "documentDependencyReason": {
+                            "docDependReasonId": 201,
+                            "displayValue": "Contract"
+                        }
+                    }
+                }
+            },
+            {
+                "actionType": 10,
+                "orderItemType": "ProductComponentAction",
+                "actionItemId": 11120011,
+                "owningCfsId": "c3e7f2a9-5d61-46ec-rgfngbklcba-b559-5681255269e8",
+                "owningBundleId": "bedb570f-a7c7-471f-xbh66s5zw5-9364-18715fa4f7a8",
+                "isOriginal": true,
+                "isEditable": true,
+                "objectId": "6fb558a4-1623-4854-{{Bundle15Object}}-906f-33e50beae3c6",
+                "productComponentAction": {
+                    "productComponent": {
+                        "productId": 88894813,
+                        "packageId": 88894812,
+                        "offerId": 2000017590,
+                        "externalId": "88894813",
+                        "parentOfferId": 2000017592,
+                        "retailPrice": {
+                            "amount": 0,
+                            "currency": "BGN"
+                        },
+                        "isAdoptive": false,
+                        "isCompatible": false,
+                        "isUnbundleable": false,
+                        "productOfferingCharges": [
+                            {
+                                "chargeId": 2000017589,
+                                "type": "PRODUCT ELEMENT",
+                                "productOfferingRC": {
+                                    "prodOfferingPrice": [
+                                        {
+                                            "isTaxInclusive": false,
+                                            "amount": {
+                                                "amount": 14.99,
+                                                "currency": "BGN"
+                                            },
+                                            "quotedAmount": 0
+                                        }
+                                    ],
+                                    "billingFrequency": {
+                                        "key": "3",
+                                        "displayValue": "Monthly"
+                                    },
+                                    "elementId": 88894787
+                                }
+                            }
+                        ],
+                        "offerName": "Data Plan No Voice",
+                        "offerClass": "2"
+                    }
+                },
+                "serviceOrderId": 90865003
+            },
+            {
+                "actionType": 10,
+                "orderItemType": "ProductComponentAction",
+                "actionItemId": 11120014,
+                "owningCfsId": "c3e7f2a9-5d61-46ec-rgfngbklcba-b559-5681255269e8",
+                "owningBundleId": "bedb570f-a7c7-471f-xbh66s5zw5-9364-18715fa4f7a8",
+                "isOriginal": true,
+                "isEditable": true,
+                "objectId": "a5f35233-3872-478e-beb2-25cbf1961617",
+                "productComponentAction": {
+                    "productComponent": {
+                        "productId": 88894210,
+                        "packageId": 88894812,
+                        "offerId": 2000017508,
+                        "externalId": "88894210",
+                        "parentOfferId": 2000017544,
+                        "retailPrice": {
+                            "amount": 0,
+                            "currency": "BGN"
+                        },
+                        "isAdoptive": false,
+                        "isCompatible": false,
+                        "isUnbundleable": false,
+                        "offerName": "Roaming Overspending 50 EUR",
+                        "offerClass": "1"
+                    }
+                },
+                "serviceOrderId": 90865003
+            },
+            {
+                "actionType": 10,
+                "orderItemType": "AddressAction",
+                "actionItemId": 11120018,
+                "isOriginal": true,
+                "isEditable": true,
+                "objectId": "8ede6112-45cc-4173-8f0b-8511656bec74",
+                "addressAction": {
+                    "address": {
+                        "addressType": {
+                            "key": "4",
+                            "displayValue": "Work Order Item"
+                        },
+                        "status": "Not Validated / Not Required",
+                        "address1": "12",
+                        "city": "ML",
+                        "state": "NY",
+                        "isoCountryCode": 840,
+                        "postalCode": "132456",
+                        "rfsSpecIds": ""
+                    }
+                }
+            },
+            {
+                "actionType": 10,
+                "orderItemType": "ProductBundleAction",
+                "actionItemId": 11120010,
+                "owningCfsId": "c3e7f2a9-5d61-46ec-rgfngbklcba-b559-5681255269e8",
+                "owningBundleId": "bedb570f-a7c7-471f-xbh66s5zw5-9364-18715fa4f7a8",
+                "isOriginal": true,
+                "isEditable": true,
+                "objectId": "6fb558a4-1623-4854-tngyq3f4hn-906f-33e50beae3c6",
+                "productBundleAction": {
+                    "productBundle": {
+                        "parentOfferId": 2000017591,
+                        "packageId": 88894812,
+                        "retailPrice": {
+                            "amount": 0,
+                            "currency": "BGN"
+                        },
+                        "offerId": 2000017592,
+                        "externalId": "88894808"
+                    }
+                },
+                "serviceOrderId": 90865003
+            },
+            {
+                "actionType": 10,
+                "orderItemType": "IndividualRoleAction",
+                "actionItemId": 11120016,
+                "owningAccountId": "d9d0e0a4-97dd-qrbvc9skovg-98aeca85-9ffc40bd820d",
+                "isOriginal": true,
+                "isEditable": true,
+                "objectId": "8eda4b70-6695-cwcmf2pfxg5-bce0-9141d9437f02",
+                "contactRoleAction": {
+                    "contactRole": {
+                        "roleSpecId": -1,
+                        "contactId": 35159,
+                        "userId": "15705a67-e5ba-4c5c-a295-fbcce5c84dc9",
+                        "characteristics": [],
+                        "individualRoleConsents": [
+                            {
+                                "roleConsentTypeId": 1,
+                                "isAllowed": true
+                            },
+                            {
+                                "roleConsentTypeId": 2,
+                                "isAllowed": true
+                            },
+                            {
+                                "roleConsentTypeId": 3,
+                                "isAllowed": true
+                            },
+                            {
+                                "roleConsentTypeId": 4,
+                                "isAllowed": true
+                            },
+                            {
+                                "roleConsentTypeId": 5,
+                                "isAllowed": true
+                            },
+                            {
+                                "roleConsentTypeId": 12,
+                                "isAllowed": false
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "actionType": 10,
+                "orderItemType": "ProductBundleAction",
+                "actionItemId": 11120005,
+                "owningCfsId": "c3e7f2a9-5d61-46ec-rgfngbklcba-b559-5681255269e8",
+                "owningBundleId": "bedb570f-a7c7-471f-xbh66s5zw5-9364-18715fa4f7a8",
+                "isOriginal": true,
+                "isEditable": true,
+                "objectId": "6fb558a4-1623-4854-rzszgjrc9z-906f-33e50beae3c6",
+                "productBundleAction": {
+                    "productBundle": {
+                        "parentOfferId": 2000017591,
+                        "packageId": 88894812,
+                        "retailPrice": {
+                            "amount": 0,
+                            "currency": "BGN"
+                        },
+                        "offerId": 2000017543,
+                        "externalId": "88894408"
+                    }
+                },
+                "serviceOrderId": 90865003
+            },
+            {
+                "actionType": 10,
+                "orderItemType": "ProductBundleAction",
+                "actionItemId": 11120006,
+                "owningCfsId": "c3e7f2a9-5d61-46ec-rgfngbklcba-b559-5681255269e8",
+                "owningBundleId": "bedb570f-a7c7-471f-xbh66s5zw5-9364-18715fa4f7a8",
+                "isOriginal": true,
+                "isEditable": true,
+                "objectId": "6fb558a4-1623-4854-dnw4iv9d33g-906f-33e50beae3c6",
+                "productBundleAction": {
+                    "productBundle": {
+                        "parentOfferId": 2000017591,
+                        "packageId": 88894812,
+                        "retailPrice": {
+                            "amount": 0,
+                            "currency": "BGN"
+                        },
+                        "offerId": 2000017544,
+                        "externalId": "88894299"
+                    }
+                },
+                "serviceOrderId": 90865003
+            },
+            {
+                "actionType": 10,
+                "orderItemType": "ProductComponentAction",
+                "actionItemId": 11120009,
+                "owningCfsId": "c3e7f2a9-5d61-46ec-rgfngbklcba-b559-5681255269e8",
+                "owningBundleId": "bedb570f-a7c7-471f-xbh66s5zw5-9364-18715fa4f7a8",
+                "isOriginal": true,
+                "isEditable": true,
+                "objectId": "6fb558a4-1623-4854-ju7re2mnn9r-906f-33e50beae3c6",
+                "productComponentAction": {
+                    "productComponent": {
+                        "productId": 88894451,
+                        "packageId": 88894812,
+                        "offerId": 2000017531,
+                        "externalId": "88894451",
+                        "parentOfferId": 2000017547,
+                        "retailPrice": {
+                            "amount": 0,
+                            "currency": "BGN"
+                        },
+                        "isAdoptive": false,
+                        "isCompatible": false,
+                        "isUnbundleable": false,
+                        "offerName": "Standard Phone Number",
+                        "offerClass": "1"
+                    }
+                },
+                "serviceOrderId": 90865003
+            },
+            {
+                "actionType": 10,
+                "orderItemType": "InventoryAction",
+                "actionItemId": 11120012,
+                "owningCfsId": "c3e7f2a9-5d61-46ec-rgfngbklcba-b559-5681255269e8",
+                "isOriginal": true,
+                "isEditable": true,
+                "objectId": "76762ec5-be5a-4bbc-ako1hm78ad-ac9d-2658911fc403-3",
+                "inventoryAction": {
+                    "inventory": {
+                        "invTypeId": 2,
+                        "invLineId": 20,
+                        "offerId": 2000017517,
+                        "sourceSystem": -2,
+                        "sourceSystemInvCode": "312456",
+                        "sourceSystemInvId": "3512936",
+                        "assignmentStrategy": -504,
+                        "isItem": true,
+                        "storeId": "S101",
+                        "containerTypeId": 508,
+                        "reservationCreateDate": "2023-05-30T16:58:02Z",
+                        "sourceSystemInvIdType": {
+                            "key": "10",
+                            "displayValue": "INMReservationId"
+                        }
+                    }
+                },
+                "serviceOrderId": 90865003,
+                "linkedId": "aa5d282f-9c9e-439d-rzszgjrc9z-97bd-1e7802426bcf"
+            },
+            {
+                "actionType": 10,
+                "orderItemType": "PaymentMethodAction",
+                "actionItemId": 11120017,
+                "owningAccountId": "d9d0e0a4-97dd-qrbvc9skovg-98aeca85-9ffc40bd820d",
+                "isOriginal": true,
+                "isEditable": true,
+                "objectId": "65c4f712-da81-47h4spso875-9ee4-a6cb8ea231bf",
+                "paymentMethodAction": {
+                    "paymentMethod": {
+                        "payMethod": {
+                            "key": "1",
+                            "displayValue": "Check"
+                        },
+                        "clearingHouseId": {
+                            "key": "DCH",
+                            "displayValue": "Default Clearing House"
+                        },
+                        "isTemporary": true
+                    }
+                }
+            },
+            {
+                "actionType": 10,
+                "orderItemType": "ProductBundleAction",
+                "actionItemId": 11120001,
+                "owningCfsId": "c3e7f2a9-5d61-46ec-rgfngbklcba-b559-5681255269e8",
+                "owningBundleId": "bedb570f-a7c7-471f-xbh66s5zw5-9364-18715fa4f7a8",
+                "isOriginal": true,
+                "isEditable": true,
+                "objectId": "6316fd6a-bf82-48bc-w3hp5sjttj-88f2-913f9eddb297",
+                "productBundleAction": {
+                    "productBundle": {
+                        "parentOfferId": 2000017591,
+                        "packageId": 88894812,
+                        "retailPrice": {
+                            "amount": 0,
+                            "currency": "BGN"
+                        },
+                        "offerId": 2000017540,
+                        "externalId": "88894475"
+                    }
+                },
+                "serviceOrderId": 90865003
+            },
+            {
+                "actionType": 10,
+                "orderItemType": "ProductBundleAction",
+                "actionItemId": 11119999,
+                "owningCfsId": "c3e7f2a9-5d61-46ec-rgfngbklcba-b559-5681255269e8",
+                "owningBundleId": "bedb570f-a7c7-471f-xbh66s5zw5-9364-18715fa4f7a8",
+                "isOriginal": true,
+                "isEditable": true,
+                "objectId": "bbb3d710-5d4f-48cc-4zw73ygp9c8-9765-0a2a47864939",
+                "productBundleAction": {
+                    "productBundle": {
+                        "parentOfferId": 2000017591,
+                        "packageId": 88894812,
+                        "retailPrice": {
+                            "amount": 0,
+                            "currency": "BGN"
+                        },
+                        "offerId": 2000017537,
+                        "externalId": "88894261"
+                    }
+                },
+                "serviceOrderId": 90865003
+            },
+            {
+                "actionType": 10,
+                "orderItemType": "ProductBundleAction",
+                "actionItemId": 11120008,
+                "owningCfsId": "c3e7f2a9-5d61-46ec-rgfngbklcba-b559-5681255269e8",
+                "owningBundleId": "bedb570f-a7c7-471f-xbh66s5zw5-9364-18715fa4f7a8",
+                "isOriginal": true,
+                "isEditable": true,
+                "objectId": "6fb558a4-1623-4854-ilf8atobtis-906f-33e50beae3c6",
+                "productBundleAction": {
+                    "productBundle": {
+                        "parentOfferId": 2000017591,
+                        "packageId": 88894812,
+                        "retailPrice": {
+                            "amount": 0,
+                            "currency": "BGN"
+                        },
+                        "offerId": 2000017547,
+                        "externalId": "88894428"
+                    }
+                },
+                "serviceOrderId": 90865003
+            },
+            {
+                "actionType": 10,
+                "orderItemType": "InventoryAction",
+                "actionItemId": 11120013,
+                "owningCfsId": "c3e7f2a9-5d61-46ec-rgfngbklcba-b559-5681255269e8",
+                "isOriginal": true,
+                "isEditable": true,
+                "objectId": "76762ec5-be5a-4bbc-ok3eoonu7gc-ac9d-2658911fc403-3",
+                "inventoryAction": {
+                    "inventory": {
+                        "invTypeId": 1,
+                        "invLineId": 10,
+                        "offerId": 2000017531,
+                        "sourceSystem": 1,
+                        "sourceSystemInvCode": "2",
+                        "assignmentStrategy": -504,
+                        "isItem": false,
+                        "sourceSystemInvIdType": {
+                            "key": "30",
+                            "displayValue": "INMReservationId"
+                        }
+                    }
+                },
+                "serviceOrderId": 90865003,
+                "linkedId": "aa5d282f-9c9e-439d-tngyq3f4hn-97bd-1e7802426bcf"
+            },
+            {
+                "actionType": 10,
+                "orderItemType": "ProductBundleAction",
+                "actionItemId": 11119997,
+                "owningCfsId": "c3e7f2a9-5d61-46ec-rgfngbklcba-b559-5681255269e8",
+                "isOriginal": true,
+                "isEditable": true,
+                "objectId": "bedb570f-a7c7-471f-xbh66s5zw5-9364-18715fa4f7a8",
+                "productBundleAction": {
+                    "productBundle": {
+                        "packageId": 88894812,
+                        "retailPrice": {
+                            "amount": 0,
+                            "currency": "BGN"
+                        },
+                        "offerId": 2000017591,
+                        "externalId": "88894812"
+                    }
+                },
+                "serviceOrderId": 90865003
+            },
+            {
+                "actionType": 10,
+                "orderItemType": "AttachmentAction",
+                "actionItemId": 11120015,
+                "isOriginal": true,
+                "isEditable": true,
+                "objectId": "ef25a25c-c32a-48a9-3fbtip2269-349f866341ed",
+                "attachmentAction": {
+                    "attachment": {
+                        "createDate": "2023-06-06T16:57:38Z",
+                        "documentId": 1945,
+                        "objectId": "11119995",
+                        "objectType": "account",
+                        "status": "Uploaded",
+                        "statusDate": "2023-06-06T16:57:38Z",
+                        "statusWho": "2f432c91-1374-422e-9371-3a3d77dab3f8",
+                        "documentDependencyReason": {
+                            "docDependReasonId": 1,
+                            "displayValue": "Address Proof"
+                        }
+                    }
+                }
+            },
+            {
+                "actionType": 10,
+                "orderItemType": "ProductBundleAction",
+                "actionItemId": 11119998,
+                "owningCfsId": "c3e7f2a9-5d61-46ec-rgfngbklcba-b559-5681255269e8",
+                "owningBundleId": "bedb570f-a7c7-471f-xbh66s5zw5-9364-18715fa4f7a8",
+                "isOriginal": true,
+                "isEditable": true,
+                "objectId": "5d855f4d-d986-4dcc-1m587ynqu3u-a1ae-e5aa2322b48c",
+                "productBundleAction": {
+                    "productBundle": {
+                        "parentOfferId": 2000017591,
+                        "packageId": 88894812,
+                        "retailPrice": {
+                            "amount": 0,
+                            "currency": "BGN"
+                        },
+                        "offerId": 2000017536,
+                        "externalId": "88894195"
+                    }
+                },
+                "serviceOrderId": 90865003
+            },
+            {
+                "actionType": 10,
+                "orderItemType": "ProductBundleAction",
+                "actionItemId": 11120007,
+                "owningCfsId": "c3e7f2a9-5d61-46ec-rgfngbklcba-b559-5681255269e8",
+                "owningBundleId": "bedb570f-a7c7-471f-xbh66s5zw5-9364-18715fa4f7a8",
+                "isOriginal": true,
+                "isEditable": true,
+                "objectId": "6fb558a4-1623-4854-1k7ehqfkz4d-906f-33e50beae3c6",
+                "productBundleAction": {
+                    "productBundle": {
+                        "parentOfferId": 2000017591,
+                        "packageId": 88894812,
+                        "retailPrice": {
+                            "amount": 0,
+                            "currency": "BGN"
+                        },
+                        "offerId": 2000017546,
+                        "externalId": "88894275"
+                    }
+                },
+                "serviceOrderId": 90865003
+            },
+            {
+                "actionType": 10,
+                "orderItemType": "ProductBundleAction",
+                "actionItemId": 11120002,
+                "owningCfsId": "c3e7f2a9-5d61-46ec-rgfngbklcba-b559-5681255269e8",
+                "owningBundleId": "bedb570f-a7c7-471f-xbh66s5zw5-9364-18715fa4f7a8",
+                "isOriginal": true,
+                "isEditable": true,
+                "objectId": "86906c69-02d5-4477-hi4dugc2t1o-8a47-fde4f73a772c",
+                "productBundleAction": {
+                    "productBundle": {
+                        "parentOfferId": 2000017591,
+                        "packageId": 88894812,
+                        "retailPrice": {
+                            "amount": 0,
+                            "currency": "BGN"
+                        },
+                        "offerId": 2000017541,
+                        "externalId": "88894471"
+                    }
+                },
+                "serviceOrderId": 90865003
+            },
+            {
+                "actionType": 10,
+                "orderItemType": "CustomerAccountAction",
+                "actionItemId": 11119995,
+                "isOriginal": true,
+                "isEditable": true,
+                "objectId": "d9d0e0a4-97dd-qrbvc9skovg-91c1-9ffc40bd820d",
+                "customerAccountAction": {
+                    "account": {
+                        "contact1Name": "Trycia Haag",
+                        "accountCategory": {
+                            "key": "2",
+                            "displayValue": "Residential"
+                        },
+                        "currencyCode": {
+                            "key": "1",
+                            "displayValue": "United States Dollars"
+                        },
+                        "billFmtOpt": {
+                            "key": "1",
+                            "displayValue": "Invoice and Summary"
+                        },
+                        "custState": "NY",
+                        "vipCode": {
+                            "key": "0",
+                            "displayValue": "New"
+                        },
+                        "billTitle": "MR",
+                        "statementToEmail": "Trycia.6jufl21qipb4@dbssqa.com",
+                        "custAddress1": "12",
+                        "billFname": "Trycia",
+                        "custCity": "ML",
+                        "billPeriod": {
+                            "key": "M01",
+                            "displayValue": "Monthly - begin on 1th - Individual"
+                        },
+                        "custCountryCode": {
+                            "key": "840",
+                            "displayValue": "United States"
+                        },
+                        "custPhone1": "12345678912",
+                        "rateClassDefault": {
+                            "key": "1",
+                            "displayValue": "Standard Rate Class"
+                        },
+                        "custEmail": "Trycia.6jufl21qipb4@dbssqa.com",
+                        "accountExternalId": "1000481862",
+                        "billCountryCode": {
+                            "key": "840",
+                            "displayValue": "United States"
+                        },
+                        "custZip": "132456",
+                        "billLname": "Haag",
+                        "acctSegId": {
+                            "key": "0",
+                            "displayValue": "All Segments"
+                        },
+                        "invoiceTemplate": "detailed",
+                        "invoiceFileFmt": "pdf",
+                        "customerAccountModeId": "1"
+                    }
+                },
+                "serviceOrderId": 90864003
+            }
+        ],
+        "cartId": 10371174,
+        "customerId": 10593543,
+        "applicationSession": {
+            "primaryIntent": {
+                "key": "10",
+                "displayValue": "NCA"
+            },
+            "userId": "2f432c91-1374-422e-9371-3a3d77dab3f8"
+        },
+        "accountInternalId": 31316,
+        "kenanOrderId": 48624003,
+        "orderType": {
+            "key": "10",
+            "displayValue": "NCA"
+        },
+        "status": "CANCELLED",
+        "quoteSummary": {
+            "totalAmount": 0,
+            "totalDiscount": 0,
+            "totalTax": 0,
+            "totalUnitCredit": 0,
+            "currencyCode": {
+                "key": "1",
+                "displayValue": "United States Dollars"
+            },
+            "upfrontOneTimeCharges": 0,
+            "upfrontShippingCharges": 0,
+            "upfrontInstallCharges": 0
+        },
+        "applicationDate": "2023-05-30T16:57:22Z",
+        "workOrderItemId": [
+            87912
+        ],
+        "cartAttributes": [
+            {
+                "id": 885962,
+                "name": "urlForDigitalRegistration",
+                "value": "https://idtest.yettel.bg/passlogin?param="
+            },
+            {
+                "id": 885959,
+                "name": "SapLatestStatus",
+                "value": "Order 3512936 is successfully saved"
+            },
+            {
+                "id": 885960,
+                "name": "SapReservationStatus",
+                "value": "Order 3512936 is successfully saved"
+            },
+            {
+                "id": 885954,
+                "name": "CreatorCITChannel",
+                "value": "5"
+            },
+            {
+                "id": 885956,
+                "name": "customerApplicationType",
+                "value": "customerApplicationType:REGULAR|subType:MONTHLY INCOME|subTypeValue:1200-1299|MAPscore:1000|MAPscore2:|MAPscore3:"
+            },
+            {
+                "id": 885963,
+                "name": "PPFIDM_OPENID",
+                "value": "28405047843393"
+            },
+            {
+                "id": 885961,
+                "name": "userName",
+                "value": "csr-test-user@ppf.com"
+            },
+            {
+                "id": 885958,
+                "name": "paymentChannel",
+                "value": "2"
+            },
+            {
+                "id": 1,
+                "name": "approverName",
+                "value": "csr-agent"
+            },
+            {
+                "id": 885952,
+                "name": "portReqInternalId",
+                "value": "1079"
+            },
+            {
+                "id": 885953,
+                "name": "CreatorStoreId",
+                "value": "S101"
+            },
+            {
+                "id": 885951,
+                "name": "CITChannel",
+                "value": "7"
+            },
+            {
+                "id": 885957,
+                "name": "payMethod",
+                "value": "5"
+            },
+            {
+                "id": 0,
+                "name": "orderProcessType",
+                "value": ""
+            }
+        ],
+        "bulkIndicator": false,
+        "agreementIds": [
+            20
+        ]
+    }

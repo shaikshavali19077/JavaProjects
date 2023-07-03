@@ -1,0 +1,9 @@
+{
+  "accountExternalId": "string",
+  "serviceExternalID": "string",
+  "msisdn": "string",
+  "deviceId": "string",
+  "action": "string",
+  "offerId": "string",
+  "ottservice": "Integer"
+}

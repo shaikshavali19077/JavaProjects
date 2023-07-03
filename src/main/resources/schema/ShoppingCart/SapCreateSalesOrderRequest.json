@@ -1,0 +1,84 @@
+{
+  "header": {
+    "reservationSalesNo": "string",
+    "refDocCategory": "string",
+    "orderType": "string",
+    "salesOrg": "string",
+    "distribution": "string",
+    "division": "string",
+    "soldToParty": {
+      "partnerRole": "string",
+      "partnerCode": "string"
+    },
+    "shipToParty": {
+      "partnerRole": "string",
+      "partnerCode": "string"
+    },
+    "shipToAddress": {
+      "name1": "string",
+      "name2": "string",
+      "streetHouseNumber": "string",
+      "postalCode": "string",
+      "city": "string",
+      "countryKey": "string",
+      "telephone": "string",
+      "email": "string",
+      "province": "string"
+    },
+    "optimaOrderNo": "string",
+    "transactionDate": "string",
+    "sellingStore": "string",
+    "salesGrp": "string",
+    "paymentTerms": "string",
+    "codAmount": "string"
+  },
+  "items": [
+    {
+      "workOrderItemID": "string",
+      "itemNo": "string",
+      "material": "string",
+      "quantity": "string",
+      "plant": "string",
+      "agentId": "string",
+      "deliveryDate": "string",
+      "shipToOverride": {
+        "shipToParty": {
+          "partnerRole": "string",
+          "partnerCode": "string"
+        },
+        "shipToAddress": {
+          "name1": "string",
+          "name2": "string",
+          "streetHouseNumber": "string",
+          "postalCode": "string",
+          "city": "string",
+          "countryKey": "string",
+          "telephone": "string",
+          "email": "string",
+          "province": "string"
+        }
+      },
+      "rejectionReason": "string",
+      "workOrderItemId": "string",
+      "deliveryBlock": "string",
+      "ratePlanCode": "string",
+      "transType": "string",
+      "brand": "string",
+      "specialInstructions": "string",
+      "pricing": {
+        "planMsf": 0,
+        "promo": "string",
+        "sellingPrice1": 0,
+        "sellingPrice2": 0,
+        "discountFixAmount": 0,
+        "discountPercentage": 0,
+        "markUpFixAmount": 0,
+        "markUpPercentage": 0,
+        "fullSellingPrice": 0
+      },
+      "serials": [
+        "string"
+      ]
+    }
+  ]
+}

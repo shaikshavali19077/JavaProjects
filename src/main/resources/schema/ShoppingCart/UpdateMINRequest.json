@@ -1,0 +1,6 @@
+{
+  "brand": "string",
+  "oldMsisdn": "string",
+  "newMsisdn": "string",
+  "ottservice": "Integer"
+}

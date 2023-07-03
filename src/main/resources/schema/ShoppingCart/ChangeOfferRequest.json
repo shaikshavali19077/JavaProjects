@@ -1,0 +1,7 @@
+{
+  "msisdn": "string",
+  "OTTService": "Integer",
+  "action": "string",
+  "deviceId": "string",
+  "OfferId": "string"
+}

@@ -1,0 +1,223 @@
+{
+  "code": 0,
+  "message": "string",
+  "response": [
+    {
+      "contactPhone2": "string",
+      "contactCompany": "string",
+      "orderType": {
+        "displayValue": "string",
+        "key": "string"
+      },
+      "orderNumber": "string",
+      "orderId": 0,
+      "contactPhone1": "string",
+      "createWho": "string",
+      "serviceOrder": [
+        {
+          "originalServiceInternalIdResets": 0,
+          "orderId": 0,
+          "transferFromAccountInternalId": 0,
+          "createWho": "string",
+          "workflowStartDt": "2022-08-12T17:23:16.586Z",
+          "newOpenItemId": 0,
+          "newPostpaidAccountInternalId": 0,
+          "completeDt": "2022-08-12T17:23:16.586Z",
+          "generateWorkflow": true,
+          "packageInstIdServ": 0,
+          "waiveInstallmentNrc": 0,
+          "redirectChargesBack": true,
+          "updateAlternateAddress": true,
+          "isServiceLevel": true,
+          "originalServiceInternalId": 0,
+          "serviceOrderTypeId": {
+            "displayValue": "string",
+            "key": "string"
+          },
+          "transferToAccountInternalId": 0,
+          "packageInstId": 0,
+          "serviceOrderId": 0,
+          "isExpanded": 0,
+          "serviceExternalId": "string",
+          "waiveUnbilledNrc": 0,
+          "createDt": "2022-08-12T17:23:16.586Z",
+          "wpProcessId": "string",
+          "workflowEstCompleteDt": "2022-08-12T17:23:16.586Z",
+          "orderStatusId": {
+            "displayValue": "string",
+            "key": "string"
+          },
+          "relatedServiceOrderId": 0,
+          "wpJobId": "string",
+          "noRevision": true,
+          "waiveRefinanceNrc": 0,
+          "redirectChargesToBalance": 0,
+          "additionalProperties": {},
+          "serviceInternalId": 0,
+          "serviceInternalIdResets": 0,
+          "items": [
+            {
+              "viewId2": 0,
+              "isCancelled": true,
+              "skipExtIdValidation": 0,
+              "memberDisplayValue": "string",
+              "createDt": "2022-08-12T17:23:16.586Z",
+              "itemId": 0,
+              "memberInstId": 0,
+              "viewId": 0,
+              "revisionFlag": 0,
+              "itemActionId": {
+                "displayValue": "string",
+                "key": "string"
+              },
+              "additionalProperties": {},
+              "memberType": 0,
+              "itemTypeId": 0,
+              "workflowId": 0,
+              "memberInstId2": 0,
+              "serviceOrderId": 0,
+              "memberId": 0
+            }
+          ],
+          "workflowId": 0,
+          "queueEntryId": 0,
+          "extendedData": {},
+          "openItemId": {
+            "displayValue": "string",
+            "key": "string"
+          },
+          "pivotDate": "2022-08-12T17:23:16.586Z",
+          "primaryOffering": {
+            "displayValue": "string",
+            "key": "string"
+          },
+          "batchId": 0,
+          "waiveTerminationObligation": true,
+          "emfConfigId": {
+            "displayValue": "string",
+            "key": "string"
+          },
+          "statusReasonId": 0,
+          "exceptionId": 0,
+          "accountInternalId": 0,
+          "expediteFlag": 0,
+          "itemTypeId": 0,
+          "annotation": "string",
+          "inventoryOrderItems": [
+            {
+              "serviceNumber": "string",
+              "isCustomerOwned": true,
+              "swapOutInventoryViewId": 0,
+              "swapInInvSerialNumber": "string",
+              "swapOutInvServiceNumber": "string",
+              "swapInInvIsItem": true,
+              "inventoryViewId": 0,
+              "swapInInvServiceNumber": "string",
+              "revisionFlag": 0,
+              "itemActionId": {
+                "displayValue": "string",
+                "key": "string"
+              },
+              "itemTypeId": {
+                "displayValue": "string",
+                "key": "string"
+              },
+              "assignmentAnnotation": "string",
+              "swapOutInvIsItem": true,
+              "serviceOrderId": 0,
+              "isCancelled": true,
+              "serialNumber": "string",
+              "inventoryPlaceholderId": 0,
+              "swapOutInvSerialNumber": "string",
+              "swapInInvWarrantyExpDt": "2022-08-12T17:23:16.586Z",
+              "swapOutInvAssignmentAnnotation": "string",
+              "createDt": "2022-08-12T17:23:16.586Z",
+              "inventoryIdResets": 0,
+              "itemId": 0,
+              "warrantyExpDt": "2022-08-12T17:23:16.586Z",
+              "swapInInventoryViewId": 0,
+              "swapOutInvWarrantyExpDt": "2022-08-12T17:23:16.586Z",
+              "inventoryId": 0,
+              "isItem": true,
+              "inventoryTypeId": {
+                "displayValue": "string",
+                "key": "string"
+              },
+              "additionalProperties": {},
+              "memberType": 0,
+              "workflowId": 0
+            }
+          ],
+          "waiveUnmetObligation": true,
+          "nestedDisconnect": true,
+          "parentOrderCreateDt": "2022-08-12T17:23:16.586Z",
+          "updateBillingAddress": true,
+          "noCancel": true,
+          "accountExternalId": "string",
+          "alignStart": true,
+          "isSuborder": true,
+          "newBalanceAccountInternalId": 0
+        }
+      ],
+      "batchId": 0,
+      "lockDt": "2022-08-12T17:23:16.586Z",
+      "salesChannelInfo": {
+        "salesChannelId": {
+          "displayValue": "string",
+          "key": "string"
+        },
+        "collateralAssocs": [
+          {
+            "characteristicDomain": "string",
+            "displayValue": "string",
+            "collateralAssocId": 0,
+            "entityName": "string",
+            "valueType": "string",
+            "characteristicType": "string",
+            "additionalProperties": {},
+            "category": "string",
+            "characteristicName": "string",
+            "collateral": {
+              "isLocateDefault": true,
+              "formFactor": 0,
+              "collateralCategory": {
+                "displayValue": "string",
+                "description": "string"
+              },
+              "collateralValue": "string",
+              "description": "string",
+              "additionalProperties": {},
+              "collateralId": 0,
+              "type": "string",
+              "priority": 0,
+              "languageCode": 0
+            },
+            "characteristicId": 0
+          }
+        ],
+        "additionalProperties": {}
+      },
+      "salesChannelId": {
+        "displayValue": "string",
+        "key": "string"
+      },
+      "contactTitle": "string",
+      "completeDt": "2022-08-12T17:23:16.586Z",
+      "generateWorkflow": true,
+      "isLocked": true,
+      "accountInternalId": 0,
+      "contactEmail": "string",
+      "contactLname": "string",
+      "createDt": "2022-08-12T17:23:16.586Z",
+      "orderStatusId": {
+        "displayValue": "string",
+        "key": "string"
+      },
+      "contactFname": "string",
+      "additionalProperties": {},
+      "relatedOffering": "string",
+      "lockWho": "string",
+      "extendedData": {}
+    }
+  ]
+}

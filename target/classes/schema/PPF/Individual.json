@@ -1,0 +1,128 @@
+{
+        "individualId": 35170,
+        "firstName": "Ericka",
+        "lastName": "Littel",
+        "dateOfBirth": "1986-03-01T12:00:00Z",
+        "citizenOf": {
+            "key": "840",
+            "displayValue": "United States"
+        },
+        "isVip": false,
+        "statusId": {
+            "key": "1",
+            "displayValue": "Active"
+        },
+        "prefix": "mr",
+        "timeZone": "Europe/London",
+        "preferredLanguageCode": {
+            "key": "1",
+            "displayValue": "English"
+        },
+        "externalIds": [
+            {
+                "individualExternalId": "3270af73-900a-4e11-9c42-132a9d4b91c1",
+                "externalId": "160443937",
+                "externalIdType": {
+                    "key": "8082",
+                    "displayValue": "National ID"
+                }
+            }
+        ],
+        "employment": [
+            {
+                "id": "a724bc08-cc20-458f-9842-c10b5255dab4",
+                "name": "",
+                "jobTitle": "",
+                "status": "Not Employed"
+            }
+        ],
+        "individualRoles": [
+            {
+                "individualRoleId": 80380,
+                "activeDate": "2023-05-31T11:30:58Z",
+                "statusId": {
+                    "key": "1",
+                    "displayValue": "Active"
+                },
+                "statusLastChangedDate": "2023-05-31T11:30:58Z",
+                "creationDate": "2023-05-31T11:30:58Z",
+                "roleSpecId": {
+                    "id": -5,
+                    "displayValue": "Residential Contact",
+                    "isDefault": false,
+                    "isInternal": true,
+                    "maxInstances": 1,
+                    "internal": true,
+                    "default": false
+                },
+                "emailContacts": [
+                    {
+                        "contactMediumId": 100429,
+                        "displayValue": "Ericka.qsse6m6drz06@dbssqa.com",
+                        "sortOrder": 2,
+                        "contactMediumSpecId": -4,
+                        "statusId": 1,
+                        "verified": 0,
+                        "emailAddress": "Ericka.qsse6m6drz06@dbssqa.com"
+                    }
+                ],
+                "telephoneContacts": [
+                    {
+                        "contactMediumId": 100428,
+                        "displayValue": "12345678912",
+                        "sortOrder": 1,
+                        "contactMediumSpecId": -1,
+                        "statusId": 1,
+                        "verified": 0,
+                        "phoneNumber": "12345678912"
+                    }
+                ],
+                "userIdentity": "e360e784-f8ef-4cb5-aaa8-5e26aeea00a2",
+                "userId": "e360e784-f8ef-4cb5-aaa8-5e26aeea00a2"
+            },
+            {
+                "individualRoleId": 80381,
+                "activeDate": "2023-05-31T11:30:58Z",
+                "createdBy": "csr-test-user@ppf.com",
+                "isDefault": false,
+                "statusId": {
+                    "key": "1",
+                    "displayValue": "Active"
+                },
+                "statusLastChangedDate": "2023-05-31T11:30:58Z",
+                "relevantEntityId": "10371208",
+                "creationDate": "2023-05-31T11:30:58Z",
+                "roleSpecId": {
+                    "id": -4,
+                    "displayValue": "Cart Owner",
+                    "isDefault": false,
+                    "isInternal": true,
+                    "relatedEntity": "Cart",
+                    "maxInstances": 1,
+                    "internal": true,
+                    "default": false
+                },
+                "userIdentity": "e360e784-f8ef-4cb5-aaa8-5e26aeea00a2",
+                "userId": "e360e784-f8ef-4cb5-aaa8-5e26aeea00a2"
+            }
+        ],
+        "addressAssocs": [
+            {
+                "addressAssocId": "0cf58949-86cb-448b-8b16-86cff5bf8c57",
+                "addressId": 30407,
+                "ownershipStatus": 0,
+                "address": {
+                    "addressId": 30407,
+                    "address1": "12321",
+                    "city": "Eklunta",
+                    "state": "Alaska",
+                    "address2": "Raven St",
+                    "zip": "99567",
+                    "county": "Anchorage"
+                }
+            }
+        ],
+        "identityVerification": {
+            "verified": false
+        }
+    }

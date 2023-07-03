@@ -1,0 +1,117 @@
+{
+  "id": "string",
+  "name": "string",
+  "status": "string",
+  "externalId": "string",
+  "creationDate": "2023-05-01T07:51:00.683Z",
+  "resourceRef": {
+    "id": "string",
+    "name": "string",
+    "referredType": "string"
+  },
+  "serviceRef": {
+    "id": "string",
+    "name": "string"
+  },
+  "agreementsRef": [
+    "string"
+  ],
+  "portRequestType": {
+    "id": "string",
+    "name": "string",
+    "portDirection": "string"
+  },
+  "portRequestHistory": [
+    {
+      "changeDate": "2023-05-01T07:51:00.683Z",
+      "changeReason": "string",
+      "status": "string",
+      "relatedParties": [
+        {
+          "id": "string",
+          "name": "string",
+          "href": "string",
+          "role": "string",
+          "referredType": "string",
+          "type": "string"
+        }
+      ]
+    }
+  ],
+  "relatedEntities": [
+    {
+      "id": "string",
+      "name": "string",
+      "href": "string",
+      "role": "string",
+      "referredType": "string",
+      "type": "string"
+    }
+  ],
+  "extendedDataList": [
+    {
+      "name": "string",
+      "characteristics": [
+        {
+          "characteristicId": 0,
+          "category": "string",
+          "characteristicName": "string",
+          "characteristicDomain": "string",
+          "valueType": "string",
+          "entityName": "string",
+          "defaultValue": "string",
+          "displayValue": "string",
+          "baseDomain": {
+            "baseDomainId": 0,
+            "name": "string",
+            "enumName": "string",
+            "system": "string",
+            "keyField": "string",
+            "responseField": "string",
+            "apiName": "string"
+          },
+          "dataDomain": {
+            "dataDomainId": 0,
+            "dataDomainType": 0,
+            "description": "string",
+            "name": "string",
+            "dataDomainMappings": [
+              {
+                "dataDomainMappingId": 0,
+                "sortOrder": 0,
+                "displayValue": "string",
+                "isDefault": true,
+                "value": "string"
+              }
+            ],
+            "application": "string",
+            "baseDomain": {
+              "baseDomainId": 0,
+              "name": "string",
+              "enumName": "string",
+              "system": "string",
+              "keyField": "string",
+              "responseField": "string",
+              "apiName": "string"
+            }
+          },
+          "paramId": 0,
+          "allowedValue": [
+            {
+              "archived": "string",
+              "attributeValue": "string",
+              "attributeValueData": "string"
+            }
+          ],
+          "characteristicValue": [
+            {
+              "value": "string",
+              "role": "string",
+              "id": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

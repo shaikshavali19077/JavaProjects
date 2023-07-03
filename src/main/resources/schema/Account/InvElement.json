@@ -1,0 +1,110 @@
+{
+  "networkDeviceId": 0,
+  "accountId": 0,
+  "addressId": 0,
+  "annotation1": "string",
+  "annotation2": "string",
+  "annotation3": "string",
+  "assignmentAnnotation": "string",
+  "blacklistReasonId": {
+    "displayValue": "string",
+    "key": "string"
+  },
+  "channelMap": "string",
+  "creditLimit": 0,
+  "currencyCode": {
+    "displayValue": "string",
+    "key": "string"
+  },
+  "endDateTime": "2022-09-06T10:30:15.651Z",
+  "equipmentConditionId": 0,
+  "equipmentConditionNotes": "string",
+  "expireDt": "2022-09-06T10:30:15.651Z",
+  "externalId": "string",
+  "geographicRegionId": 0,
+  "inventoryBatchId": 0,
+  "inventoryId": 0,
+  "inventoryIdResets": 0,
+  "inventoryLineId": {
+    "displayValue": "string",
+    "key": "string"
+  },
+  "inventoryTypeId": {
+    "displayValue": "string",
+    "key": "string"
+  },
+  "isAssignable": true,
+  "isCustomerOwned": true,
+  "isDonated": true,
+  "isInitialised": true,
+  "isItem": true,
+  "languageCode": 0,
+  "locationDetailId": 0,
+  "locationId": {
+    "displayValue": "string",
+    "key": "string"
+  },
+  "rateCenterId": 0,
+  "msgGroup": 0,
+  "serviceNumberLo": "string",
+  "serviceNumberHi": "string",
+  "secondaryCode": "string",
+  "subjectMatterRating": 0,
+  "networkId": "string",
+  "topLevelContainerId": 0,
+  "tokenLimit": 0,
+  "warrantyExpDt": "2022-09-06T10:30:15.651Z",
+  "serialNumber": "string",
+  "state": 0,
+  "salesChannelId": {
+    "displayValue": "string",
+    "key": "string"
+  },
+  "topLevelContainerType": {
+    "displayValue": "string",
+    "key": "string"
+  },
+  "statusId": {
+    "displayValue": "string",
+    "key": "string"
+  },
+  "portabilityIndicator": 0,
+  "extendedDataList": [
+    {
+      "viewId": 0,
+      "paramName": "string",
+      "paramId": 0,
+      "paramDatatype": 0,
+      "paramValue": "string"
+    }
+  ],
+  "serviceNumber": "string",
+  "provisioningData1": "string",
+  "primaryCode": "string",
+  "provisioningData2": "string",
+  "provisioningData3": "string",
+  "provisioningData4": "string",
+  "provisioningData5": "string",
+  "provisioningData6": "string",
+  "serviceNumberLength": 0,
+  "responsiblePartyId": {
+    "displayValue": "string",
+    "key": "string"
+  },
+  "tertiaryCode": "string",
+  "stockPropertyConfigId": 0,
+  "vanityCode": {
+    "displayValue": "string",
+    "key": "string"
+  },
+  "maskPpvTitle": true,
+  "profileType": 0,
+  "operatorId": 0,
+  "startDateTime": "2022-09-06T10:30:15.651Z",
+  "viewId": 0,
+  "paramB": 0,
+  "paramA": 0,
+  "mustBeReturned": 0,
+  "image": "string",
+  "modelDisplayValue": "string"
+}

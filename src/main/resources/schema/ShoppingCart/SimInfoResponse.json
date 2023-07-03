@@ -1,0 +1,26 @@
+{
+  "iccid": "string",
+  "imsi": "string",
+  "msisdn": "string",
+  "billingType": "string",
+  "orderDate": "2022-08-30T09:46:47.221Z",
+  "expiryDate": "2022-08-30T09:46:47.221Z",
+  "distributionChannel": "string",
+  "imei": "string",
+  "activationDate": "2022-08-30T09:46:47.221Z",
+  "soldDate": "2022-08-30T09:46:47.221Z",
+  "simStatus": "string",
+  "msisdnStatus": "string",
+  "provisioningStatus": "string",
+  "brandCode": "string",
+  "brandName": "string",
+  "materialCode": "string",
+  "subBrandName": "string",
+  "prodCode": "string",
+  "cardCode": "string",
+  "pin1": "string",
+  "pin2": "string",
+  "puk1": "string",
+  "puk2": "string"
+}
+

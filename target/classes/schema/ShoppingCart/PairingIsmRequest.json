@@ -1,0 +1,7 @@
+{
+  "iccid": "string",
+  "imsi": "string",
+  "msisdn": "string",
+  "reservationId": "string",
+  "remarks": "string"
+}

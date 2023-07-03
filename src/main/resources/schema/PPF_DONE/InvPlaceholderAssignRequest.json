@@ -1,0 +1,18 @@
+{
+  "agentId": "string",
+  "plantId": "string",
+  "item": [
+    {
+      "itemNo": "string",
+      "matCode": "string",
+      "invTypeId": "string",
+      "offerId": "string",
+      "inventoryNumber": "string",
+      "serial": [
+        {
+          "serialId": "string"
+        }
+      ]
+    }
+  ]
+}
